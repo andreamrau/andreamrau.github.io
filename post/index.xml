@@ -13,27 +13,12 @@
     
     
     <item>
-      <title>hello-world.Rmd</title>
-      <link>https://andreamrau.github.io/post/hello-world-rmd/</link>
+      <title>Setting up *blogdown*</title>
+      <link>https://andreamrau.github.io/post/hello-blogdown/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://andreamrau.github.io/post/hello-world-rmd/</guid>
-      <description>https://alison.rbind.io/post/up-and-running-with-blogdown/ https://tclavelle.github.io/blog/blogdown_github/
-Also, I added .nojekyll to the project
-blogdown::new_site(theme = &amp;ldquo;gcushen/hugo-academic&amp;rdquo;, theme_example = TRUE)
-blogdown::new_site(theme = &amp;ldquo;gcushen/hugo-academic&amp;rdquo;, theme_example = TRUE)
-Create a new post new_post(title = &amp;lsquo;hello-world.Rmd&amp;rsquo;) build_site()</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://andreamrau.github.io/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://andreamrau.github.io/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>https://andreamrau.github.io/post/hello-blogdown/</guid>
+      <description>I recently decided that I wanted to move my professional homepage from a free page set up on WordPress to GitHub Pages using blogdown by Yihui Xi. There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people.</description>
     </item>
     
   </channel>
