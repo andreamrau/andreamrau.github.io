@@ -29,7 +29,7 @@
     </item>
     
     <item>
-      <title>Setting up *blogdown*</title>
+      <title>Setting up blogdown</title>
       <link>/post/hello-blogdown/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
@@ -51,16 +51,6 @@
 &lt;li&gt;I can then render the site locally using &lt;code&gt;serve_site()&lt;/code&gt;, and I can build the site using &lt;code&gt;build_site()&lt;/code&gt;. After building the site and staging all changed files to both repsoitories, all that’s left to do is commit changes and push the new site to GitHub.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For hosting it on GitHub, I used the second option from &lt;a href=&#34;https://tclavelle.github.io/blog/blogdown_github/&#34;&gt;this link&lt;/a&gt; – namely, I have two repositories (including an extra one to store the source content and tell &lt;code&gt;blogdown&lt;/code&gt; to publish the site to my &lt;code&gt;username.github.io&lt;/code&gt; repository each time I build it, meaning I have to remember to push both repositories to GitHub when I make updates). The only other change from the tutorial I used was to add the hidden file &lt;code&gt;.nojekyll&lt;/code&gt; to my &lt;code&gt;username.github.io&lt;/code&gt; repository to make sure that GitHub does not rebuild the website using Jekyll.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
-      <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
