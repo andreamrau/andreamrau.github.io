@@ -30,5 +30,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title> Identification of marginal causal relationships in gene networks from observational and interventional expression data</title>
+      <link>/publication/monneret_plosone_2017/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/monneret_plosone_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic datasets for the identification of key ingredients for RNA-seq differential analysis</title>
+      <link>/publication/rigaill_bib_2016/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/rigaill_bib_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A model selection criterion for model-based clustering of annotated gene expression data</title>
+      <link>/publication/gallopin_sagmb_2015/</link>
+      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gallopin_sagmb_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initiation a la statistique bayesienne - Bases theoriques et applications en alimentation, environnement, epidemiologie et genetique</title>
+      <link>/publication/biobayes_book_2015/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/biobayes_book_2015/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

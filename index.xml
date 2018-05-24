@@ -73,6 +73,15 @@
     </item>
     
     <item>
+      <title> Identification of marginal causal relationships in gene networks from observational and interventional expression data</title>
+      <link>/publication/monneret_plosone_2017/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/monneret_plosone_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploring drivers of gene expression in The Cancer Genome Atlas</title>
       <link>/talk/2018-03-28_mcw_rau/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
@@ -80,6 +89,15 @@
       <guid>/talk/2018-03-28_mcw_rau/</guid>
       <description>&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;fa8ece9bbe244c3b90e71127714f1725&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Synthetic datasets for the identification of key ingredients for RNA-seq differential analysis</title>
+      <link>/publication/rigaill_bib_2016/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/rigaill_bib_2016/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -106,6 +124,24 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A model selection criterion for model-based clustering of annotated gene expression data</title>
+      <link>/publication/gallopin_sagmb_2015/</link>
+      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gallopin_sagmb_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initiation a la statistique bayesienne - Bases theoriques et applications en alimentation, environnement, epidemiologie et genetique</title>
+      <link>/publication/biobayes_book_2015/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/biobayes_book_2015/</guid>
       <description></description>
     </item>
     
