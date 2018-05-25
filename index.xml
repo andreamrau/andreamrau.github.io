@@ -146,5 +146,23 @@
 </description>
     </item>
     
+    <item>
+      <title>Co-expression analysis of high-throughput transcriptome sequencing data with Poisson mixture models</title>
+      <link>/publication/rau_bioinformatics_2015/</link>
+      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/rau_bioinformatics_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation d&#39;effets causaux dans les reseaux de regulation genique : vers la grande dimension</title>
+      <link>/publication/monneret_ria_2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/monneret_ria_2015/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
