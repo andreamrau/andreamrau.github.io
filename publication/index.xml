@@ -2,85 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Andrea Rau, Ph.D.</title>
-    <link>/publication/</link>
+    <link>https://andreamrau.github.io/publication/</link>
     <description>Recent content in Publications on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Transformation and model choice for RNA-seq co-expression analysis</title>
-      <link>/publication/rau_bib_2017/</link>
+      <link>https://andreamrau.github.io/publication/rau_bib_2017/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/rau_bib_2017/</guid>
+      <guid>https://andreamrau.github.io/publication/rau_bib_2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clustering transformed compositional data using K-means, with applications in gene expression and bicycle sharing system data</title>
-      <link>/publication/godichon_jas_2018/</link>
+      <link>https://andreamrau.github.io/publication/godichon_jas_2018/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/godichon_jas_2018/</guid>
+      <guid>https://andreamrau.github.io/publication/godichon_jas_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title> Identification of marginal causal relationships in gene networks from observational and interventional expression data</title>
-      <link>/publication/monneret_plosone_2017/</link>
+      <link>https://andreamrau.github.io/publication/monneret_plosone_2017/</link>
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/monneret_plosone_2017/</guid>
+      <guid>https://andreamrau.github.io/publication/monneret_plosone_2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synthetic datasets for the identification of key ingredients for RNA-seq differential analysis</title>
-      <link>/publication/rigaill_bib_2016/</link>
+      <link>https://andreamrau.github.io/publication/rigaill_bib_2016/</link>
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/rigaill_bib_2016/</guid>
+      <guid>https://andreamrau.github.io/publication/rigaill_bib_2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A model selection criterion for model-based clustering of annotated gene expression data</title>
-      <link>/publication/gallopin_sagmb_2015/</link>
+      <link>https://andreamrau.github.io/publication/gallopin_sagmb_2015/</link>
       <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/gallopin_sagmb_2015/</guid>
+      <guid>https://andreamrau.github.io/publication/gallopin_sagmb_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Initiation a la statistique bayesienne - Bases theoriques et applications en alimentation, environnement, epidemiologie et genetique</title>
-      <link>/publication/biobayes_book_2015/</link>
+      <link>https://andreamrau.github.io/publication/biobayes_book_2015/</link>
       <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/biobayes_book_2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Co-expression analysis of high-throughput transcriptome sequencing data with Poisson mixture models</title>
-      <link>/publication/rau_bioinformatics_2015/</link>
-      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/rau_bioinformatics_2015/</guid>
+      <guid>https://andreamrau.github.io/publication/biobayes_book_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Estimation d&#39;effets causaux dans les reseaux de regulation genique : vers la grande dimension</title>
-      <link>/publication/monneret_ria_2015/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://andreamrau.github.io/publication/monneret_ria_2015/</link>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/monneret_ria_2015/</guid>
+      <guid>https://andreamrau.github.io/publication/monneret_ria_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-expression analysis of high-throughput transcriptome sequencing data with Poisson mixture models</title>
+      <link>https://andreamrau.github.io/publication/rau_bioinformatics_2015/</link>
+      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreamrau.github.io/publication/rau_bioinformatics_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reverse engineering gene regulatory networks using approximate Bayesian computation</title>
+      <link>https://andreamrau.github.io/publication/rau_statisticscomputing_2012/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreamrau.github.io/publication/rau_statisticscomputing_2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An empirical Bayesian method for estimating biological networks from temporal microarray data</title>
+      <link>https://andreamrau.github.io/publication/rau_sagmb_2010/</link>
+      <pubDate>Fri, 15 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreamrau.github.io/publication/rau_sagmb_2010/</guid>
       <description></description>
     </item>
     

@@ -2,105 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Andrea Rau, Ph.D.</title>
-    <link>/home/</link>
+    <link>https://andreamrau.github.io/home/</link>
     <description>Recent content in Homes on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <link>https://andreamrau.github.io/home/about/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://andreamrau.github.io/home/about/</guid>
       <description>Biography My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on two objectives:
  Inferring gene regulatory networks from microarray data, particularly through the use of time-course and intervention (gene knockout and knockdown) experiments, and Developing sound statistical methods for the analysis of RNA-seq data, including differential expression analyses, co-expression analyses, and network inference methods.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>https://andreamrau.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://andreamrau.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <link>https://andreamrau.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>https://andreamrau.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://andreamrau.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://andreamrau.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/home/publications/</link>
+      <link>https://andreamrau.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://andreamrau.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/home/teaching/</link>
+      <link>https://andreamrau.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/teaching/</guid>
+      <guid>https://andreamrau.github.io/home/teaching/</guid>
       <description>I am a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
  UWM PH718: Data management and visualization  </description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>/home/software/</link>
+      <link>https://andreamrau.github.io/home/software/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/software/</guid>
+      <guid>https://andreamrau.github.io/home/software/</guid>
       <description>maskmeans: Multi-view aggregation/splitting K-means clustering algorithm. Edge in TCGA: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas. coseq: Co-expression analysis of sequencing data. ICAL: Model selection for model based clustering of annotated data. metaRNASeq: Meta-analysis of RNA-seq data. HTSDiff: Differential analysis for RNA-seq data. HTSFilter: Filter for replicated high-throughput sequencing data. HTSCluster: Clustering high-throughput sequencing data with Poisson mixture models.</description>
     </item>
     
     <item>
       <title>Advising</title>
-      <link>/home/advising/</link>
+      <link>https://andreamrau.github.io/home/advising/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/advising/</guid>
+      <guid>https://andreamrau.github.io/home/advising/</guid>
       <description>Dr. Gilles Monneret (2014-2018 Ph.D.): &amp;ldquo;Estimation of causal effects in gene networks from observational and intervention data&amp;rdquo; (co-supervision with Gr&amp;eacute;gory Nuel and Florence Jaffr&amp;eacute;zic) Rapha&amp;euml;lle Momal-Leisenring (2017 M2 internship): &amp;ldquo;Integrative statistical analysis of multi-omics data&amp;rdquo; Fr&amp;eacute;d&amp;eacute;ric Jehl (2017 M2 internship): &amp;ldquo;Impact of heat stress on liver and blood transcriptomes of laying hens&amp;rdquo; (co-supervision with Tatiana Zerjal) Dr. Manuel Revilla Sanchez (2016 3-month Ph.D. Erasmus+ Learning Mobility): &amp;ldquo;An integrative gene network analysis of the genetic determination of pig fatty acid composition&amp;rdquo; (co-supervison with Jordi Estelle and Yuliaxis Ramayo Caldas) Babacar Ciss (2016 M2 internship): &amp;ldquo;Constructing predictive models for ovine production data&amp;rdquo; (co-supervision with Eli Sellem, Allice) Dr.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://andreamrau.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://andreamrau.github.io/home/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
+      <link>https://andreamrau.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://andreamrau.github.io/home/posts/</guid>
       <description></description>
     </item>
     
