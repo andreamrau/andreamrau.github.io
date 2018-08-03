@@ -2,22 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Andrea Rau, Ph.D.</title>
-    <link>https://andreamrau.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://andreamrau.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Mapping transparency in ggplot2 to a continuous variable</title>
+      <link>/post/alpha-transparency-in-ggplot2/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/alpha-transparency-in-ggplot2/</guid>
+      <description>tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic. Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
+Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.</description>
+    </item>
+    
+    <item>
       <title>Setting up blogdown</title>
-      <link>https://andreamrau.github.io/post/hello-blogdown/</link>
+      <link>/post/hello-blogdown/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://andreamrau.github.io/post/hello-blogdown/</guid>
+      <guid>/post/hello-blogdown/</guid>
       <description>I recently decided that I wanted to move my professional homepage from a free page set up on WordPress to GitHub Pages using blogdown by Yihui Xi.
 There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people.</description>
     </item>
