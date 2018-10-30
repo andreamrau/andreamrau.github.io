@@ -59,16 +59,6 @@
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description>I am a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
- UWM PH718: Data management and visualization  </description>
-    </item>
-    
-    <item>
       <title>Software</title>
       <link>/home/software/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -78,25 +68,27 @@
     </item>
     
     <item>
-      <title>Advising</title>
+      <title>Advising &amp; Teaching</title>
       <link>/home/advising/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/advising/</guid>
-      <description>Dr. Gilles Monneret (2014-2018 Ph.D.): &amp;ldquo;Estimation of causal effects in gene networks from observational and intervention data&amp;rdquo; (co-supervision with Gr&amp;eacute;gory Nuel and Florence Jaffr&amp;eacute;zic) Rapha&amp;euml;lle Momal-Leisenring (2017 M2 internship): &amp;ldquo;Integrative statistical analysis of multi-omics data&amp;rdquo; Fr&amp;eacute;d&amp;eacute;ric Jehl (2017 M2 internship): &amp;ldquo;Impact of heat stress on liver and blood transcriptomes of laying hens&amp;rdquo; (co-supervision with Tatiana Zerjal) Dr. Manuel Revilla Sanchez (2016 3-month Ph.D. Erasmus+ Learning Mobility): &amp;ldquo;An integrative gene network analysis of the genetic determination of pig fatty acid composition&amp;rdquo; (co-supervison with Jordi Estelle and Yuliaxis Ramayo Caldas) Babacar Ciss (2016 M2 internship): &amp;ldquo;Constructing predictive models for ovine production data&amp;rdquo; (co-supervision with Eli Sellem, Allice) Dr.</description>
+      <description>I was a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
+ UWM PH718: Data management and visualization  Alumni:
+ Dr. Gilles Monneret (2014-2018 Ph.D.): &amp;ldquo;Estimation of causal effects in gene networks from observational and intervention data&amp;rdquo; (co-supervision with Gr&amp;eacute;gory Nuel and Florence Jaffr&amp;eacute;zic) Rapha&amp;euml;lle Momal-Leisenring (2017 M2 internship): &amp;ldquo;Integrative statistical analysis of multi-omics data&amp;rdquo; Fr&amp;eacute;d&amp;eacute;ric Jehl (2017 M2 internship): &amp;ldquo;Impact of heat stress on liver and blood transcriptomes of laying hens&amp;rdquo; (co-supervision with Tatiana Zerjal) Dr.</description>
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <title>CV</title>
+      <link>/home/cv/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/contact/</guid>
-      <description></description>
+      <guid>/home/cv/</guid>
+      <description>Find my CV in PDF here.</description>
     </item>
     
     <item>
-      <title>Recent Posts</title>
+      <title>Latest News</title>
       <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       

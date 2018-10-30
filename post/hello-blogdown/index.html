@@ -30,7 +30,7 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
 
   
   
-  <meta name="theme-color" content="#0095eb">
+  <meta name="theme-color" content="#328cc1">
   
   
   
@@ -168,9 +168,9 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
         
 
         <li class="nav-item">
-          <a href="/#publications_selected">
+          <a href="/#talks">
             
-            <span>Publications</span>
+            <span>Talks</span>
             
           </a>
         </li>
@@ -187,9 +187,9 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
         
 
         <li class="nav-item">
-          <a href="/#teaching">
+          <a href="/#publications">
             
-            <span>Teaching</span>
+            <span>Publications</span>
             
           </a>
         </li>
@@ -227,7 +227,7 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
         <li class="nav-item">
           <a href="/#advising">
             
-            <span>Advising</span>
+            <span>Advising &amp; Teaching</span>
             
           </a>
         </li>
@@ -240,13 +240,11 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
         
         
         
-          
-        
 
         <li class="nav-item">
-          <a href="/#contact">
+          <a href="/#cv">
             
-            <span>Contact</span>
+            <span>CV</span>
             
           </a>
         </li>
@@ -307,7 +305,7 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -393,6 +391,8 @@ There were basically two reasons for this: (1) Because I only sprang for the fre
 <li>I can then render the site locally using <code>serve_site()</code>, and I can build the site using <code>build_site()</code>. After building the site and staging all changed files to both repsoitories, all that’s left to do is commit changes and push the new site to GitHub.</li>
 </ol>
 <p>For hosting it on GitHub, I used the second option from <a href="https://tclavelle.github.io/blog/blogdown_github/">this link</a> – namely, I have two repositories (including an extra one to store the source content and tell <code>blogdown</code> to publish the site to my <code>username.github.io</code> repository each time I build it, meaning I have to remember to push both repositories to GitHub when I make updates). The only other change from the tutorial I used was to add the hidden file <code>.nojekyll</code> to my <code>username.github.io</code> repository to make sure that GitHub does not rebuild the website using Jekyll.</p>
+<hr />
+<p>As an addendum to this post, I also followed Ming Tang’s <a href="https://divingintogeneticsandgenomics.rbind.io/post/hugo-academic-theme-blog-down-deployment-some-details/">instructions</a> for customizing my website, primarily by changing the <code>config.toml</code> file. Notably, I changed the menu bar from white to black, added a CV section, and inactivated the selected publication and contact widgets.</p>
 
     </div>
 
