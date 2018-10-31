@@ -18,8 +18,7 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on two objectives:
- Inferring gene regulatory networks from microarray data, particularly through the use of time-course and intervention (gene knockout and knockdown) experiments, and Developing sound statistical methods for the analysis of RNA-seq data, including differential expression analyses, co-expression analyses, and network inference methods.</description>
+      <description>Biography My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on developing sound statistical methods for the analysis of genomic and transcriptomic data, including differential expression analyses, co-expression analyses, network inference, and integrative multi-omic analyses.</description>
     </item>
     
     <item>
@@ -55,7 +54,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
       <guid>/home/publications/</guid>
-      <description></description>
+      <description>Book  Albert, I., Ancelet, S., David, O., Denis, J.-B., Makowski, D., Parent, &amp;Eacute;, Rau, A., and Soubeyrand, S. (2015). Initiation &amp;agrave; la statistique bay&amp;eacute;sienne : Bases th&amp;eacute;oriques et applications en alimentation, environnmenet, &amp;eacute;pid&amp;eacute;miologie et g&amp;eacute;n&amp;eacute;tique. &amp;Eacute;ditions Ellipses, collection r&amp;eacute;f&amp;eacute;rences sciences. Code  Publisher link   Dissertations  Rau, A. (2017) Statistical methods and software for the analysis of transcriptomic data. HDR (Habilitation &amp;agrave; diriger des recherches) thesis, Universit&amp;eacute; d&amp;rsquo;&amp;Eacute;vry Val-d&amp;rsquo;Essonne.</description>
     </item>
     
     <item>
@@ -88,7 +87,7 @@
     </item>
     
     <item>
-      <title>Latest News</title>
+      <title>Posts</title>
       <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       

@@ -11,6 +11,62 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Creating a visual CV</title>
+      <link>/post/creating-a-visual-cv/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-a-visual-cv/</guid>
+      <description>&lt;p&gt;This a short post to provide details on how I created the visual CV that is included on my homepage. I got the idea for doing this from a &lt;a href=&#34;https://twitter.com/dataandme/status/1052527057496940544&#34;&gt;tweet&lt;/a&gt; from the awesome &lt;a href=&#34;https://maraaverick.rbind.io/about/&#34;&gt;Mara Averick&lt;/a&gt; about an R package called &lt;a href=&#34;https://github.com/ndphillips/VisualResume&#34;&gt;&lt;em&gt;VisualResume&lt;/em&gt;&lt;/a&gt; by &lt;a href=&#34;http://ndphillips.github.io/&#34;&gt;Nathaniel Phillips&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;fr&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+OMG, I love this! (I miss Breaking Bad so much)&lt;br&gt;📦 “VisualResume: An R package for creating a visual resume” by &lt;a href=&#34;https://twitter.com/YaRrrBook?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@YaRrrBook&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://t.co/ZNtbrU87Y4&#34;&gt;https://t.co/ZNtbrU87Y4&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/8KbI06QYKq&#34;&gt;pic.twitter.com/8KbI06QYKq&lt;/a&gt;
+&lt;/p&gt;
+— Mara Averick (&lt;span class=&#34;citation&#34;&gt;@dataandme&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/dataandme/status/1052527057496940544?ref_src=twsrc%5Etfw&#34;&gt;17 octobre 2018&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Once &lt;em&gt;VisualResume&lt;/em&gt; is installed from GitHub (via &lt;em&gt;devtools&lt;/em&gt;) and loaded, I just modified the Walter White example, resized the plot directly in the RStudio plot window, and exported to PNG.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(VisualResume)
+
+VisualResume::VisualResume(
+  titles.left = c(&amp;quot;&amp;quot;,&amp;quot;Andrea Rau, PhD&amp;quot;,  &amp;quot;&amp;quot;),
+  titles.right = c(&amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;),
+  titles.left.cex = c(1,  4, 1),
+  timeline.labels = c(&amp;quot;Education&amp;quot;, &amp;quot;Work experience&amp;quot;),
+  timeline = data.frame(title = c(&amp;quot;St. Olaf College&amp;quot;, &amp;quot;Purdue University&amp;quot;, 
+                                  &amp;quot;Purdue University&amp;quot;, &amp;quot;Inria&amp;quot;, &amp;quot;INRA&amp;quot;, &amp;quot;UWM&amp;quot;, &amp;quot;UWM&amp;quot;,
+                                  &amp;quot;Mayo Clinic&amp;quot;, &amp;quot;Walgreens&amp;quot;),
+                        sub = c(&amp;quot;BA, Mathematics &amp;amp; French&amp;quot;, &amp;quot;MS, Applied Statistics&amp;quot;, 
+                                &amp;quot;PhD, Statistics&amp;quot;, &amp;quot;Post-doc&amp;quot;, 
+                                &amp;quot;Research Scientist&amp;quot;, &amp;quot;Visiting Scholar&amp;quot;, 
+                                &amp;quot;AgreenSkills+ Fellow&amp;quot;, &amp;quot;Intern&amp;quot;, &amp;quot;Intern&amp;quot;),
+                        start = c(2001.75, 2005.75, 2007.75, 2010.75, 2011.75, 
+                                  2016.58, 2018.83, 2005, 2006.4),
+                        end = c(2005.42, 2007.74, 2010.67, 2011.75, 2020, 2016.75, 
+                                2019.5, 2005.15, 2006.7),
+                        side = c(1, 1, 1, 0, 0, 0, 0, 0, 0)),
+  milestones = data.frame(title = c(&amp;quot;BA&amp;quot;, &amp;quot;MS&amp;quot;, &amp;quot;PhD&amp;quot;),
+                          sub = c(&amp;quot;Math/\nFrench&amp;quot;, &amp;quot;Applied\nStatistics&amp;quot;, 
+                                  &amp;quot;Statistics&amp;quot;),
+                          year = c(0, 0, 0)),
+  events = data.frame(year = c(2009.9, 2015.5, 2017.75, 2018.5),
+                      title = c(&amp;quot;First R package on CRAN (ebdbNet)&amp;quot;,
+                                &amp;quot;BioBayes book on Bayesian statistics published&amp;quot;,
+                                &amp;quot;HDR in Applied Mathematics (University d&amp;#39;Evry-Val-d&amp;#39;Essonne)&amp;quot;,
+                                &amp;quot;First Shiny web application published (EDGE in TCGA)&amp;quot;)),
+  interests = list(&amp;quot;R&amp;quot; = c(rep(&amp;quot;coseq&amp;quot;, 4), &amp;quot;HTSCluster&amp;quot;,
+                           rep(&amp;quot;HTSFilter&amp;quot;, 3), rep(&amp;quot;EDGE in TCGA&amp;quot;, 2)), 
+                   &amp;quot;statistics&amp;quot; = c(rep(&amp;quot;mixture models&amp;quot;, 6), 
+                                    rep(&amp;quot;clustering&amp;quot;, 3), rep(&amp;quot;networks&amp;quot;, 5), 
+                                    rep(&amp;quot;Bayesian&amp;quot;, 3)),
+                   &amp;quot;genomics&amp;quot; = c(rep(&amp;quot;multi-omics&amp;quot;, 8), rep(&amp;quot;ATAC-seq&amp;quot;, 2), 
+                                  rep(&amp;quot;co-expression&amp;quot;, 6), rep(&amp;quot;networks&amp;quot;, 3))),
+  year.steps = 1
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-10-31-creating-a-visual-CV_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mapping transparency in ggplot2 to a continuous variable</title>
       <link>/post/alpha-transparency-in-ggplot2/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
@@ -73,15 +129,7 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/integration/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;This page is a work in progress &amp;ndash; check back soon for a summary of my work on multi-omic data integration.&lt;/p&gt;
 </description>
     </item>
     
@@ -91,15 +139,7 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/rnaseq/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;This page is a work in progress &amp;ndash; check back soon for a summary of my work on RNA-seq data analysis.&lt;/p&gt;
 </description>
     </item>
     
@@ -109,15 +149,7 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/networks/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;This page is a work in progress &amp;ndash; check back soon for a summary of my work on network inference from transcriptomic data.&lt;/p&gt;
 </description>
     </item>
     
@@ -240,15 +272,6 @@ multi-omics data.&lt;/p&gt;
       <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>/publication/monneret_ria_2015/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Co-expression analysis of high-throughput transcriptome sequencing data with Poisson mixture models</title>
-      <link>/publication/rau_bioinformatics_2015/</link>
-      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/rau_bioinformatics_2015/</guid>
       <description></description>
     </item>
     
