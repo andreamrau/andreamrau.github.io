@@ -40,7 +40,7 @@ VisualResume::VisualResume(
                                 &amp;quot;Research Scientist&amp;quot;, &amp;quot;Visiting Scholar&amp;quot;, 
                                 &amp;quot;AgreenSkills+ Fellow&amp;quot;, &amp;quot;Intern&amp;quot;, &amp;quot;Intern&amp;quot;),
                         start = c(2001.75, 2005.75, 2007.75, 2010.75, 2011.75, 
-                                  2016.58, 2018.83, 2005, 2006.4),
+                                  2016.58, 2018783, 2005, 2006.4),
                         end = c(2005.42, 2007.74, 2010.67, 2011.75, 2020, 2016.75, 
                                 2019.5, 2005.15, 2006.7),
                         side = c(1, 1, 1, 0, 0, 0, 0, 0, 0)),
@@ -234,8 +234,17 @@ multi-omics data.&lt;/p&gt;
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
       <guid>/talk/2018-03-28_mcw_rau/</guid>
-      <description>&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;fa8ece9bbe244c3b90e71127714f1725&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
+      <description>&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;3f19454be50e458ab8c4dbd98c8e520c&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Exploring drivers of gene expression in The Cancer Genome Atlas</title>
+      <link>/talk/2018-12-04_mcw_rau/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      
+      <guid>/talk/2018-12-04_mcw_rau/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -264,15 +273,6 @@ multi-omics data.&lt;/p&gt;
       <guid>/publication/biobayes_book_2015/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;/img/BioBayes_bookcover.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Estimation d&#39;effets causaux dans les reseaux de regulation genique : vers la grande dimension</title>
-      <link>/publication/monneret_ria_2015/</link>
-      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/monneret_ria_2015/</guid>
-      <description></description>
     </item>
     
   </channel>
