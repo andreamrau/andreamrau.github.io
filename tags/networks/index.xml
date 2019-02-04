@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networks on Andrea Rau, Ph.D.</title>
+    <link>/tags/networks/</link>
+    <description>Recent content in networks on Andrea Rau, Ph.D.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Network inference</title>
+      <link>/project/networks/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/networks/</guid>
+      <description>This page is a work in progress &amp;ndash; check back soon for a summary of my work on network inference from transcriptomic data.</description>
+    </item>
+    
+  </channel>
+</rss>

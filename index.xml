@@ -11,6 +11,45 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Tips and tricks for ggplot2</title>
+      <link>/post/tips-and-tricks-for-ggplot2/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tips-and-tricks-for-ggplot2/</guid>
+      <description>
+
+
+&lt;p&gt;Like many (most?) users of the &lt;code&gt;ggplot2&lt;/code&gt; visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.&lt;/p&gt;
+&lt;div id=&#34;including-an-inset-graph&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Including an inset graph&lt;/h3&gt;
+&lt;p&gt;I found this tip &lt;a href=&#34;https://stackoverflow.com/questions/5219671/it-is-possible-to-create-inset-graphs&#34;&gt;here&lt;/a&gt;, using the &lt;code&gt;cowplot&lt;/code&gt; package. The &lt;code&gt;x&lt;/code&gt;, &lt;code&gt;y&lt;/code&gt;, &lt;code&gt;width&lt;/code&gt;, and &lt;code&gt;height&lt;/code&gt; parameters in the &lt;code&gt;draw_plot&lt;/code&gt; function can be used to adjust the position and size of the inset graph.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(cowplot)
+data(mtcars)
+
+main_plot &amp;lt;- ggplot(mtcars) + 
+  geom_point(aes(x=mpg, y=disp, color=factor(cyl))) +
+  scale_color_discrete(name = &amp;quot;Cylinders&amp;quot;) +
+  theme_classic()
+
+inset_plot &amp;lt;- ggplot(mtcars) + 
+  geom_density(aes(x=mpg, fill=factor(cyl), color=factor(cyl)),
+               alpha = 0.35) +
+  guides(fill=FALSE, color=FALSE) +
+  theme_classic()
+
+plot_with_inset &amp;lt;- 
+  ggdraw() +
+  draw_plot(main_plot) +
+  draw_plot(inset_plot, x = 0.4, y = 0.6, width = 0.4, height = 0.4)
+
+plot_with_inset&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-01-31-tips-and-tricks-for-ggplot2_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2018 year in review</title>
       <link>/post/2018-year-in-review/</link>
       <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
@@ -38,7 +77,10 @@
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/creating-a-visual-cv/</guid>
-      <description>&lt;p&gt;This is a short post to provide details on how I created the visual CV that is included on my homepage. I got the idea for doing this from a &lt;a href=&#34;https://twitter.com/dataandme/status/1052527057496940544&#34;&gt;tweet&lt;/a&gt; from the awesome &lt;a href=&#34;https://maraaverick.rbind.io/about/&#34;&gt;Mara Averick&lt;/a&gt; about an R package called &lt;a href=&#34;https://github.com/ndphillips/VisualResume&#34;&gt;&lt;em&gt;VisualResume&lt;/em&gt;&lt;/a&gt; by &lt;a href=&#34;http://ndphillips.github.io/&#34;&gt;Nathaniel Phillips&lt;/a&gt;:&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;This is a short post to provide details on how I created the visual CV that is included on my homepage. I got the idea for doing this from a &lt;a href=&#34;https://twitter.com/dataandme/status/1052527057496940544&#34;&gt;tweet&lt;/a&gt; from the awesome &lt;a href=&#34;https://maraaverick.rbind.io/about/&#34;&gt;Mara Averick&lt;/a&gt; about an R package called &lt;a href=&#34;https://github.com/ndphillips/VisualResume&#34;&gt;&lt;em&gt;VisualResume&lt;/em&gt;&lt;/a&gt; by &lt;a href=&#34;http://ndphillips.github.io/&#34;&gt;Nathaniel Phillips&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;fr&#34;&gt;
 &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
 OMG, I love this! (I miss Breaking Bad so much)&lt;br&gt;📦 “VisualResume: An R package for creating a visual resume” by &lt;a href=&#34;https://twitter.com/YaRrrBook?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@YaRrrBook&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://t.co/ZNtbrU87Y4&#34;&gt;https://t.co/ZNtbrU87Y4&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/8KbI06QYKq&#34;&gt;pic.twitter.com/8KbI06QYKq&lt;/a&gt;
@@ -94,7 +136,10 @@ VisualResume::VisualResume(
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/alpha-transparency-in-ggplot2/</guid>
-      <description>&lt;div id=&#34;tldr-use-i-to-treat-a-numeric-variable-in-a-data.frame-as-is-and-avoid-unintended-conversion-when-mapping-to-transparency-in-a-ggplot2-aesthetic.&#34; class=&#34;section level4&#34;&gt;
+      <description>
+
+
+&lt;div id=&#34;tldr-use-i-to-treat-a-numeric-variable-in-a-data.frame-as-is-and-avoid-unintended-conversion-when-mapping-to-transparency-in-a-ggplot2-aesthetic.&#34; class=&#34;section level4&#34;&gt;
 &lt;h4&gt;tl;dr: Use &lt;code&gt;I()&lt;/code&gt; to treat a numeric variable in a &lt;code&gt;data.frame&lt;/code&gt; “as is” and avoid unintended conversion when mapping to transparency in a &lt;code&gt;ggplot2&lt;/code&gt; aesthetic.&lt;/h4&gt;
 &lt;p&gt;Today I ran into a &lt;code&gt;ggplot2&lt;/code&gt; plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.&lt;/p&gt;
 &lt;p&gt;Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable. I also happened to be using programmatic aesthetic mappings (&lt;code&gt;aes_string&lt;/code&gt;) rather than non-standard evaluation of aesthetics (&lt;code&gt;aes&lt;/code&gt;), so it took me a while to figure out whether the problem was related to this (it wasn’t).&lt;/p&gt;
@@ -199,7 +244,10 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/hello-blogdown/</guid>
-      <description>&lt;p&gt;I recently decided that I wanted to move my professional homepage from a free page set up on &lt;a href=&#34;http://andrearau.wordpress.com&#34;&gt;WordPress&lt;/a&gt; to &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; using &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; by &lt;a href=&#34;https://yihui.name/en&#34;&gt;Yihui Xi&lt;/a&gt;.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;I recently decided that I wanted to move my professional homepage from a free page set up on &lt;a href=&#34;http://andrearau.wordpress.com&#34;&gt;WordPress&lt;/a&gt; to &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; using &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; by &lt;a href=&#34;https://yihui.name/en&#34;&gt;Yihui Xi&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people. Needless to say, I found this very unappealing, but am also not willing to pay a huge subscription fee. (2) I love coding in R, and do a lot of my analysis work in reproducible &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;Rmarkdown&lt;/a&gt; documents, and as such it seemed like it would be an easy move over to &lt;code&gt;blogdown&lt;/code&gt; – this means I would be able to maintain my website in R, have a lot more flexibility and control over the look of my website, and avoid those ugly WordPress ads.&lt;/p&gt;
 &lt;p&gt;To set up my new GitHub Pages website, I found the following two blogs to be extremely helpful:&lt;/p&gt;
 &lt;ul&gt;
@@ -256,8 +304,7 @@ multi-omics data.&lt;/p&gt;
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
       
       <guid>/talk/2018-03-28_mcw_rau/</guid>
-      <description>&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;3f19454be50e458ab8c4dbd98c8e520c&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -275,15 +322,6 @@ multi-omics data.&lt;/p&gt;
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/publication/rigaill_bib_2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A model selection criterion for model-based clustering of annotated gene expression data</title>
-      <link>/publication/gallopin_sagmb_2015/</link>
-      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/gallopin_sagmb_2015/</guid>
       <description></description>
     </item>
     

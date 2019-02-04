@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/tips-and-tricks-for-ggplot2/</loc>
+      <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/2018-year-in-review/</loc>
       <lastmod>2019-01-03T00:00:00+00:00</lastmod>
     </url>
@@ -231,6 +240,55 @@
     
     <url>
     
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2018-08-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/r/</loc>
+      <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/year-in-review/</loc>
+      <lastmod>2019-01-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/blogdown/</loc>
       <lastmod>2018-02-22T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -241,17 +299,8 @@
     
     <url>
     
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/ggplot2/</loc>
-      <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -280,48 +329,8 @@
     
     <url>
     
-      <loc>/project/</loc>
-      <lastmod>2018-08-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/r/</loc>
-      <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/rnaseq/</loc>
       <lastmod>2018-08-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/year-in-review/</loc>
-      <lastmod>2019-01-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

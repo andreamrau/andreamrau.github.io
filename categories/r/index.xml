@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Andrea Rau, Ph.D.</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Andrea Rau, Ph.D.</description>
+    <title>R on Andrea Rau, Ph.D.</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>/post/tips-and-tricks-for-ggplot2/</guid>
       <description>Like many (most?) users of the ggplot2 visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.
 Including an inset graph I found this tip here, using the cowplot package.</description>
-    </item>
-    
-    <item>
-      <title>2018 year in review</title>
-      <link>/post/2018-year-in-review/</link>
-      <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018-year-in-review/</guid>
-      <description>The start of a new year is always a nice time to look back and take stock of the past year, and look forward and set some goals for the coming year. I spent the entirety of 2018 as an AgreenSkills+ Visiting Scholar at UWM in Milwaukee, Wisconsin, which has been (and continues to be!) a very rich experience that has given me the chance to broaden my understanding of statistical genetics and genomics and expand my skill set.</description>
     </item>
     
     <item>
