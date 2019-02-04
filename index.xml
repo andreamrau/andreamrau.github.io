@@ -266,6 +266,24 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;For hosting it on GitHub, I used the second option from &lt;a href=&#34;https://tclavelle.github.io/blog/blogdown_github/&#34;&gt;this link&lt;/a&gt; – namely, I have two repositories (including an extra one to store the source content and tell &lt;code&gt;blogdown&lt;/code&gt; to publish the site to my &lt;code&gt;username.github.io&lt;/code&gt; repository each time I build it, meaning I have to remember to push both repositories to GitHub when I make updates). The only other change from the tutorial I used was to add the hidden file &lt;code&gt;.nojekyll&lt;/code&gt; to my &lt;code&gt;username.github.io&lt;/code&gt; repository to make sure that GitHub does not rebuild the website using Jekyll.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;As an addendum to this post, I also followed Ming Tang’s &lt;a href=&#34;https://divingintogeneticsandgenomics.rbind.io/post/hugo-academic-theme-blog-down-deployment-some-details/&#34;&gt;instructions&lt;/a&gt; for customizing my website, primarily by changing the &lt;code&gt;config.toml&lt;/code&gt; file. Notably, I changed the menu bar from white to black, added a CV section, and inactivated the selected publication and contact widgets.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;As a second addendum to this post, I also decided to set up a custom domain for this website. I had previously purchased the domain (www.andrea-rau.com) through WordPress, without ever even really understanding how it worked. As it was coming up for renewal, I decided to transfer it to &lt;a href=&#34;https://domains.google/&#34;&gt;Google Domains&lt;/a&gt;, which was a very straightforward process (I essentially clicked the link for “I’d like to transfer instead”, followed the instructions, clicked the appropriate link sent to my email, and voila!). Once I had my domain in my Google Domains account (it took a couple of days for the transfer to complete), the process for setting up the custom domain for my website was very easy – although I actually found the GitHub documentation to be somewhat hard to follow. I instead followed most of the steps listed &lt;a href=&#34;https://medium.com/employbl/launch-a-website-with-a-custom-url-using-github-pages-and-google-domains-3dd8d90cc33b&#34;&gt;here&lt;/a&gt;, with the only exception being that I made sure to use the updated GitHub IP addresses:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Add a &lt;code&gt;CNAME&lt;/code&gt; file in the &lt;code&gt;MYUSERNAME.github.io&lt;/code&gt; repository that looked like the following, and committed and pushed the changes to my repo:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;andrea-rau.com
+www.andrea-rau.com&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the &lt;code&gt;Custom resource records&lt;/code&gt; box. There I added one &lt;code&gt;@&lt;/code&gt; record of type &lt;code&gt;A&lt;/code&gt; for the following four IP addresses, as described in the &lt;a href=&#34;https://help.github.com/articles/setting-up-an-apex-domain/&#34;&gt;GitHub Pages help&lt;/a&gt;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;185.199.108.153&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;185.199.109.153&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;185.199.110.153&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;185.199.111.153&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then I added one &lt;code&gt;www&lt;/code&gt; record of type &lt;code&gt;CNAME&lt;/code&gt; for my GitHub Pages address, &lt;code&gt;MYUSERNAME.github.io&lt;/code&gt;.&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Finally, back in the Settings of my GitHub pages repo, I made sure to check the box for &lt;code&gt;Enforce HTTPS&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
