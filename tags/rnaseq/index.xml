@@ -24,7 +24,7 @@
     <item>
       <title>Co-expression analyses of RNA-seq data in practice with the R/Bioconductor package coseq</title>
       <link>/talk/2018-03-28_mcw_rau-copy/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/2018-03-28_mcw_rau-copy/</guid>
       <description>In this talk, I will present some of the features of the R/Bioconductor package coseq, which provides a straightforward wrapper to identify groups of co-expressed genes from RNA sequencing data using Poisson mixture models (Rau et al., 2015), Gaussian mixture models (Rau et al., 2017), or the Kmeans algorithm (Godichon-Baggioni et al., 2018) in conjunction with appropriately chosen data transformations. In particular, I will focus on our efforts to facilitate use of coseq within standard RNA-seq analysis pipelines.</description>
