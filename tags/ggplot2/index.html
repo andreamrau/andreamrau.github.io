@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.55.6" />
   <meta name="author" content="Andrea Rau">
 
   
@@ -303,7 +303,8 @@
     <div class="article-style">
       
       Like many (most?) users of the ggplot2 visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.
-Including an inset graph I found this tip here, using the cowplot package.
+Including an inset graph
+I found this tip here, using the cowplot package.
       
     </div>
   </div>
@@ -312,7 +313,8 @@ Including an inset graph I found this tip here, using the cowplot package.
     <h2><a href="/post/alpha-transparency-in-ggplot2/">Mapping transparency in ggplot2 to a continuous variable</a></h2>
     <div class="article-style">
       
-      tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic. Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
+      tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic.
+Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
 Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.
       
     </div>

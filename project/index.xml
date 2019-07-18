@@ -18,7 +18,7 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/integration/</guid>
-      <description>This page is a work in progress &amp;ndash; check back soon for a summary of my work on multi-omic data integration.</description>
+      <description>Integrate multi-omic cancer data representing gene expression, methylation, copy number alterations, somatic mutations, and microRNA expression</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/rnaseq/</guid>
-      <description>This page is a work in progress &amp;ndash; check back soon for a summary of my work on RNA-seq data analysis.</description>
+      <description>Identify clusters of co-expressed genes from RNA-seq data</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/networks/</guid>
-      <description>This page is a work in progress &amp;ndash; check back soon for a summary of my work on network inference from transcriptomic data.</description>
+      <description>Identify gene regulatory networks from transcriptomic data</description>
     </item>
     
   </channel>

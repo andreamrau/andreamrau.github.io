@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrea Rau, Ph.D. on Andrea Rau, Ph.D.</title>
@@ -7,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -155,7 +154,8 @@ mpg &amp;lt;- mpg %&amp;gt;% mutate(alpha_random = runif(nrow(mpg)),
 &lt;p&gt;Next, a simple scatterplot between &lt;code&gt;cty&lt;/code&gt; and &lt;code&gt;hwy&lt;/code&gt; where I map the transparency to the &lt;code&gt;alpha_random&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
   geom_point()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;336&#34; /&gt; So this seems strange – my &lt;code&gt;alpha_random&lt;/code&gt; variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought &lt;code&gt;alpha_random&lt;/code&gt; was numeric?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;336&#34; /&gt;
+So this seems strange – my &lt;code&gt;alpha_random&lt;/code&gt; variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought &lt;code&gt;alpha_random&lt;/code&gt; was numeric?&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(mpg$alpha_random)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;numeric&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;What if I force it to be numeric in my &lt;code&gt;ggplot2&lt;/code&gt; call?&lt;/p&gt;
@@ -185,7 +185,8 @@ g4 &amp;lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_big)) +
 g5 &amp;lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
   geom_point() 
 plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;576&#34; /&gt; Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the &lt;code&gt;data.frame&lt;/code&gt; to be used for transparency using &lt;code&gt;I()&lt;/code&gt; to protect it from conversion.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;576&#34; /&gt;
+Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the &lt;code&gt;data.frame&lt;/code&gt; to be used for transparency using &lt;code&gt;I()&lt;/code&gt; to protect it from conversion.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -259,7 +260,7 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;I created a new repository for my blogdown source content.&lt;/li&gt;
 &lt;li&gt;I installed Hugo using the &lt;code&gt;install_hugo()&lt;/code&gt; function from &lt;code&gt;blogdown&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;I built the template for the new site using `blogdown::new_site(theme = “gcushen/hugo-academic”, theme_example = TRUE).&lt;/li&gt;
-&lt;li&gt;I changed the &lt;code&gt;config.toml&lt;/code&gt; configuration file to set the &lt;code&gt;baseurl&lt;/code&gt; to my GitHub URL using &lt;code&gt;baseurl = &amp;quot;https://&amp;lt;username&amp;gt;.github.io/&amp;quot;&lt;/code&gt;, and I told blogdown which directory to place the rendered site in using &lt;code&gt;publishDir = &amp;quot;../&amp;lt;username&amp;gt;.github.io&amp;quot;.&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;I changed the &lt;code&gt;config.toml&lt;/code&gt; configuration file to set the &lt;code&gt;baseurl&lt;/code&gt; to my GitHub URL using &lt;code&gt;baseurl = &#34;https://&amp;lt;username&amp;gt;.github.io/&#34;&lt;/code&gt;, and I told blogdown which directory to place the rendered site in using &lt;code&gt;publishDir = &#34;../&amp;lt;username&amp;gt;.github.io&#34;.&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Finally, I can create new content using the &lt;code&gt;new_post()&lt;/code&gt; and &lt;code&gt;new_content()&lt;/code&gt; functions from &lt;code&gt;blogdown&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;I can then render the site locally using &lt;code&gt;serve_site()&lt;/code&gt;, and I can build the site using &lt;code&gt;build_site()&lt;/code&gt;. After building the site and staging all changed files to both repsoitories, all that’s left to do is commit changes and push the new site to GitHub.&lt;/li&gt;
 &lt;/ol&gt;
@@ -269,10 +270,12 @@ plot_grid(g3, g4, g5, nrow=1)&lt;/code&gt;&lt;/pre&gt;
 &lt;hr /&gt;
 &lt;p&gt;As a second addendum to this post, I also decided to set up a custom domain for this website. I had previously purchased the domain (www.andrea-rau.com) through WordPress, without ever even really understanding how it worked. As it was coming up for renewal, I decided to transfer it to &lt;a href=&#34;https://domains.google/&#34;&gt;Google Domains&lt;/a&gt;, which was a very straightforward process (I essentially clicked the link for “I’d like to transfer instead”, followed the instructions, clicked the appropriate link sent to my email, and voila!). Once I had my domain in my Google Domains account (it took a couple of days for the transfer to complete), the process for setting up the custom domain for my website was very easy – although I actually found the GitHub documentation to be somewhat hard to follow. I instead followed most of the steps listed &lt;a href=&#34;https://medium.com/employbl/launch-a-website-with-a-custom-url-using-github-pages-and-google-domains-3dd8d90cc33b&#34;&gt;here&lt;/a&gt;, with the only exception being that I made sure to use the updated GitHub IP addresses:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Add a &lt;code&gt;CNAME&lt;/code&gt; file in the &lt;code&gt;MYUSERNAME.github.io&lt;/code&gt; repository that looked like the following, and committed and pushed the changes to my repo:&lt;/p&gt;
+&lt;li&gt;Add a &lt;code&gt;CNAME&lt;/code&gt; file in the &lt;code&gt;MYUSERNAME.github.io&lt;/code&gt; repository that looked like the following, and committed and pushed the changes to my repo:&lt;/li&gt;
+&lt;/ol&gt;
 &lt;pre&gt;&lt;code&gt;andrea-rau.com
-www.andrea-rau.com&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the &lt;code&gt;Custom resource records&lt;/code&gt; box. There I added one &lt;code&gt;@&lt;/code&gt; record of type &lt;code&gt;A&lt;/code&gt; for the following four IP addresses, as described in the &lt;a href=&#34;https://help.github.com/articles/setting-up-an-apex-domain/&#34;&gt;GitHub Pages help&lt;/a&gt;:&lt;/p&gt;&lt;/li&gt;
+www.andrea-rau.com&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the &lt;code&gt;Custom resource records&lt;/code&gt; box. There I added one &lt;code&gt;@&lt;/code&gt; record of type &lt;code&gt;A&lt;/code&gt; for the following four IP addresses, as described in the &lt;a href=&#34;https://help.github.com/articles/setting-up-an-apex-domain/&#34;&gt;GitHub Pages help&lt;/a&gt;:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;185.199.108.153&lt;/code&gt;&lt;/li&gt;

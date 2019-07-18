@@ -19,7 +19,7 @@
       
       <guid>/post/tips-and-tricks-for-ggplot2/</guid>
       <description>Like many (most?) users of the ggplot2 visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.
-Including an inset graph I found this tip here, using the cowplot package.</description>
+Including an inset graphI found this tip here, using the cowplot package.</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@ OMG, I love this! (I miss Breaking Bad so much)
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/alpha-transparency-in-ggplot2/</guid>
-      <description>tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic. Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
+      <description>tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic.Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
 Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.</description>
     </item>
     

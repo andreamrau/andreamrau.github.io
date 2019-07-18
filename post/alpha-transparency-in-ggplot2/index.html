@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Hugo 0.55.6" />
   <meta name="author" content="Andrea Rau">
 
   
@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic. Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
+  <meta name="description" content="tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic.Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
 Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.">
 
   
@@ -93,7 +93,7 @@ Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but 
   <meta property="og:site_name" content="Andrea Rau, Ph.D.">
   <meta property="og:url" content="/post/alpha-transparency-in-ggplot2/">
   <meta property="og:title" content="Mapping transparency in ggplot2 to a continuous variable | Andrea Rau, Ph.D.">
-  <meta property="og:description" content="tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic. Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
+  <meta property="og:description" content="tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic.Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
 Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.">
   <meta property="og:locale" content="en-us">
   
@@ -406,7 +406,8 @@ mpg &lt;- mpg %&gt;% mutate(alpha_random = runif(nrow(mpg)),
 <p>Next, a simple scatterplot between <code>cty</code> and <code>hwy</code> where I map the transparency to the <code>alpha_random</code>.</p>
 <pre class="r"><code>ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
   geom_point()</code></pre>
-<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png" width="336" /> So this seems strange – my <code>alpha_random</code> variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought <code>alpha_random</code> was numeric?</p>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png" width="336" />
+So this seems strange – my <code>alpha_random</code> variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought <code>alpha_random</code> was numeric?</p>
 <pre class="r"><code>class(mpg$alpha_random)</code></pre>
 <pre><code>## [1] &quot;numeric&quot;</code></pre>
 <p>What if I force it to be numeric in my <code>ggplot2</code> call?</p>
@@ -436,7 +437,8 @@ g4 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_big)) +
 g5 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
   geom_point() 
 plot_grid(g3, g4, g5, nrow=1)</code></pre>
-<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" /> Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the <code>data.frame</code> to be used for transparency using <code>I()</code> to protect it from conversion.</p>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" />
+Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the <code>data.frame</code> to be used for transparency using <code>I()</code> to protect it from conversion.</p>
 </div>
 
     </div>
