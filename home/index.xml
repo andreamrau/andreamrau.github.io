@@ -63,7 +63,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/software/</guid>
-      <description>Invest Astuces: An R/Shiny interactive web application for financial and real estate loan simulations Regeneration Rosetta: An R/Shiny interactive web application to explore regeneration-associated gene expression and chromatin accessibility maskmeans: Multi-view aggregation/splitting K-means clustering algorithm. Edge in TCGA: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas. coseq: Co-expression analysis of sequencing data. ICAL: Model selection for model based clustering of annotated data.</description>
+      <description>padma: Pathway deviation scores using multiple factor analysis Invest Astuces: An R/Shiny interactive web application for financial and real estate loan simulations Regeneration Rosetta: An R/Shiny interactive web application to explore regeneration-associated gene expression and chromatin accessibility maskmeans: Multi-view aggregation/splitting K-means clustering algorithm. Edge in TCGA: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas. coseq: Co-expression analysis of sequencing data.</description>
     </item>
     
     <item>
@@ -72,9 +72,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/advising/</guid>
-      <description>I am an adjunct instructor for the following graduate course at the Medical College of Wisconsin in Spring 2019:
- MCW Physiological Genomics: Bioinformatics module  I was a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
- UWM PH718: Data management and visualization  Alumni:
+      <description>Fanny Mollandin (2019-2022 Ph.D.): &amp;ldquo;Incorporating known functional annotations into Bayesian genomic prediction models&amp;rdquo; (co-supervision with Pascal Croiseau  Alumni:
  Dr. Gilles Monneret (2014-2018 Ph.D.): &amp;ldquo;Estimation of causal effects in gene networks from observational and intervention data&amp;rdquo; (co-supervision with Gr&amp;eacute;gory Nuel and Florence Jaffr&amp;eacute;zic) Rapha&amp;euml;lle Momal-Leisenring (2017 M2 internship): &amp;ldquo;Integrative statistical analysis of multi-omics data&amp;rdquo; Fr&amp;eacute;d&amp;eacute;ric Jehl (2017 M2 internship): &amp;ldquo;Impact of heat stress on liver and blood transcriptomes of laying hens&amp;rdquo; (co-supervision with Tatiana Zerjal) Dr.</description>
     </item>
     
