@@ -5,7 +5,7 @@
     <description>Recent content in Andrea Rau, Ph.D. on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
@@ -197,7 +197,104 @@ Much better – exactly what I was looking for! So the solution to my problem wa
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/integration/</guid>
-      <description>&lt;p&gt;This page is a work in progress &amp;ndash; check back soon for a summary of my work on multi-omic data integration.&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;related-software&#34;&gt;Related software:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andreamrau/padma&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;padma&lt;/strong&gt;&lt;/a&gt;: Pathway deviation scores using multiple factor analysis&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ls-shiny-prod.uwm.edu/rosetta/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Regeneration Rosetta&lt;/strong&gt;&lt;/a&gt;: An R/Shiny interactive web application to explore
+regeneration-associated gene expression and chromatin accessibility&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/andreamrau/maskmeans&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;maskmeans&lt;/strong&gt;&lt;/a&gt;: Multi-view aggregation/splitting K-means clustering algorithm.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ls-shiny-prod.uwm.edu/edge_in_tcga/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Edge in TCGA&lt;/strong&gt;&lt;/a&gt;: An R/Shiny interactive web application for the exploration of drivers of gene expression in &lt;a href=&#34;https://cancergenome.nih.gov/&#34; target=&#34;_blank&#34;&gt;The Cancer Genome Atlas&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/hex_integrative.png&#34; alt =&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;related-publications&#34;&gt;Related publications:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Godichon-Baggioni, A., Maugis-Rabusseau, C. and &lt;strong&gt;Rau, A.&lt;/strong&gt; (2019) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. &lt;em&gt;Annals of Applied Statistics&lt;/em&gt; (accepted).
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://hal.archives-ouvertes.fr/hal-01916941&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/maskmeans&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/441070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., &lt;strong&gt;Rau, A.&lt;/strong&gt;, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Transcriptome and chromatin structure
+annotation of liver, CD4+ and CD8+ T cells from four livestock species. &lt;em&gt;BMC Biology&lt;/em&gt; (accepted).
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.biorxiv.org/content/early/2018/05/11/316091v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/441070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dhara, S., &lt;strong&gt;Rau, A.&lt;/strong&gt;, Flister, M., Recka, N., Laiosa, M., Auer, P., and Udvadia, A. (2019) Cellular reprogramming for successful CNS axon regeneration is driven by a temporally changing cast of transcription factors. &lt;em&gt;Scientific Reports&lt;/em&gt; 9:14198, doi: 10.1038/s41598-019-50485-6.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.biorxiv.org/content/10.1101/638734v3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://ls-shiny-prod.uwm.edu/rosetta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Shiny app
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/OpticRegen_2019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.nature.com/articles/s41598-019-50485-6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/481438&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Dhara, S., Udvadia, A., and Auer, P. (2019) &lt;em&gt;Regeneration Rosetta&lt;/em&gt;: An interactive web application to explore
+regeneration-associated gene expression and chromatin accessibility. &lt;em&gt;G3: Genes|Genomes|Genetics&lt;/em&gt;, doi: 10.1534/g3.119.400729..&lt;br /&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://ls-shiny-prod.uwm.edu/rosetta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Shiny app
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/rosetta&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.g3journal.org/content/9/12/3953&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/481437&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. &lt;em&gt;Bioinformatics&lt;/em&gt;, bty551, doi: &lt;a href=&#34;https://doi.org/10.1101/227926&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1101/227926&lt;/a&gt;.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.biorxiv.org/content/early/2018/05/02/227926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty551/5047764&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://ls-shiny-prod.uwm.edu/edge_in_tcga/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Shiny app
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/EDGE-in-TCGA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/452734&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Manansala, R., Flister, M. J., Rui, H., Jaffr&amp;eacute;zic, F., Lalo&amp;euml;, D.&amp;sup1;, and Auer, P. L.&amp;sup1; (2019) Individualized multi-omic pathway deviation scores using multiple factor analysis &lt;em&gt;bioRxiv&lt;/em&gt;, &lt;a href=&#34;https://doi.org/10.1101/827022&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1101/827022&lt;/a&gt;.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.biorxiv.org/content/10.1101/827022v2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/RMFRJLA_2019&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/padma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Software
+&lt;/a&gt;&lt;br /&gt;
+&amp;sup1;These authors contributed equally to this work.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -207,7 +304,89 @@ Much better – exactly what I was looking for! So the solution to my problem wa
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/rnaseq/</guid>
-      <description>&lt;p&gt;This page is a work in progress &amp;ndash; check back soon for a summary of my work on RNA-seq data analysis.&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;related-software&#34;&gt;Related software:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bioconductor.org/packages/coseq/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;coseq&lt;/strong&gt;&lt;/a&gt;: Co-expression analysis of sequencing data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Gallopin/ICAL&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;ICAL&lt;/strong&gt;&lt;/a&gt;: Model selection for model based clustering of annotated data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/HTSCluster&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;HTSCluster&lt;/strong&gt;&lt;/a&gt;: Clustering high-throughput sequencing data with Poisson mixture models.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-publications&#34;&gt;Related publications:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Godichon-Baggioni, A., Maugis-Rabusseau, C. and &lt;strong&gt;Rau, A.&lt;/strong&gt; (2018) Clustering transformed compositional data using K-means, with applications in gene expression and bicycle sharing system data. &lt;em&gt;Journal of Applied Statistics&lt;/em&gt;, 46(1):47-65.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://arxiv.org/abs/1704.06150&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.tandfonline.com/doi/abs/10.1080/02664763.2018.1454894?journalCode=cjas20&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://bioconductor.org/packages/release/bioc/html/coseq.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/481439&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt; and Maugis-Rabusseau, C. (2018) Transformation and model choice for RNA-seq co-expression analysis. &lt;em&gt;Briefings in Bioinformatics&lt;/em&gt;, bbw128, &lt;a href=&#34;https://doi.org/10.1093/bib/bbw128&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1093/bib/bbw128&lt;/a&gt;.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.biorxiv.org/content/early/2016/07/24/065607&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://academic.oup.com//bib/article/doi/10.1093/bib/bbw128/2870509/Transformation-and-model-choice-for-RNAseq?guestAccessKey=83aebf08-b670-4da2-b227-dc5f5acab354&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://bioconductor.org/packages/release/bioc/html/coseq.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/413088&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mondet, F., &lt;strong&gt;Rau, A.&lt;/strong&gt;, Klopp, C., Rohmer, M. Severac, D., Le Conte, Y., and Alaux, C. (2018). Transcriptome profiling of the honeybee parasite Varroa destructor provides new biological insights into the mite adult life cycle. &lt;em&gt;BMC Genomics&lt;/em&gt;, 19:328.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4668-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/432918&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sauvage, C., &lt;strong&gt;Rau, A.&lt;/strong&gt;, Aichholz, C., Chadoeuf, J., Sarah, G., Ruiz, M., Santoni, S., Causse, M., David, J., Gl&amp;eacute;min, S. (2017) Domestication rewired gene expression and nucleotide diversity patterns in tomato. &lt;em&gt;The Plant Journal&lt;/em&gt; 91(4):631-645.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/tpj.13592/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/393545&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gallopin, M., Celeux, G., Jaffr&amp;eacute;zic, F., &lt;strong&gt;Rau, A.&lt;/strong&gt; (2015) A model selection criterion for model-based clustering of annotated gene expression data. &lt;em&gt;Statistical Applications in Genetics and Molecular Biology&lt;/em&gt;, 14(5): 413-428.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://www.degruyter.com/view/j/sagmb.2015.14.issue-5/sagmb-2014-0095/sagmb-2014-0095.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/Gallopin/ICAL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/336851&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Maugis-Rabusseau, C., Martin-Magniette, M.-L., Celeux, G. (2015) Co-expression analysis of high-throughput transcriptome sequencing data with Poisson mixture models. &lt;em&gt;Bioinformatics&lt;/em&gt;, 31(9): 1420-1427.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://hal.archives-ouvertes.fr/hal-01108821&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://bioinformatics.oxfordjournals.org/content/early/2015/01/05/bioinformatics.btu845.abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://cran.r-project.org/web/packages/HTSCluster&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/311812&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -217,7 +396,88 @@ Much better – exactly what I was looking for! So the solution to my problem wa
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/networks/</guid>
-      <description>&lt;p&gt;This page is a work in progress &amp;ndash; check back soon for a summary of my work on network inference from transcriptomic data.&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;related-software&#34;&gt;Related software:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/ebdbNet&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;ebdbNet&lt;/strong&gt;&lt;/a&gt;: Empirical Bayes estimation for dynamic Bayesian networks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;related-publications&#34;&gt;Related publications:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Monneret, G., Jaffr&amp;eacute;zic, F., &lt;strong&gt;Rau, A.&lt;/strong&gt;, Zerjal, T. and Nuel, G. (2017) Identification of marginal causal relationships in gene networks from observational and interventional expression data. &lt;em&gt;PLoS One&lt;/em&gt; 12(3): e0171142.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171142&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/Monneret/MarginalCausality&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/391068&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Monneret, G., Jaffr&amp;eacute;zic, F., &lt;strong&gt;Rau, A.&lt;/strong&gt;, Nuel, G. (2015) Estimation d&amp;rsquo;effets causaux dans les r&amp;eacute;seaux de r&amp;eacute;gulation g&amp;eacute;nique : vers la grande dimension. &lt;em&gt;Revue d&amp;rsquo;intelligence artificielle&lt;/em&gt;, 29(2): 205-227.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://ria.revuesonline.com/article.jsp?articleId=20894&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/GBNcausal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/311809&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Nuel, G., &lt;strong&gt;Rau, A.&lt;/strong&gt;, and Jaffr&amp;eacute;zic, F. (2013) Using pairwise ordering preferences to estimate causal effects in gene expression from a mixture of observational and intervention experiments. &lt;em&gt;Quality Technology and Quantitative Management&lt;/em&gt; 11(1):23-37.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://web.it.nctu.edu.tw/~qtqm/qtqmpapers/2014V11N1/2014V11N1_F2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/283565&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Jaffr&amp;eacute;zic, F., and Nuel, G. (2013) Joint estimation of causal effects from observational and intervention gene expression data. &lt;em&gt;BMC Systems Biology&lt;/em&gt; 7:111.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://www.biomedcentral.com/1752-0509/7/111/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://github.com/andreamrau/GBNcausal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/255885&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Gallopin, M. &lt;strong&gt;Rau, A.&lt;/strong&gt;, and Jaffr&amp;eacute;zic, F. (2013). A hierarchical Poisson log-normal model for network inference from RNA sequencing data. &lt;em&gt;PLoS One&lt;/em&gt; 8(10): e77503.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://www.plosone.org/article/info:doi/10.1371/journal.pone.0077503&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/221846&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Jaffr&amp;eacute;zic, F., Foulley, J.-L., and Doerge, R. W. (2012). Reverse engineering gene regulatory networks using approximate Bayesian computation. &lt;em&gt;Statistics and Computing&lt;/em&gt;, 22: 1257-1271.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://arxiv.org/abs/1109.1402&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Preprint
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://link.springer.com/article/10.1007\%2Fs11222-011-9309-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/172363&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Rau, A.&lt;/strong&gt;, Jaffr&amp;eacute;zic, F., Foulley, J.-L., and Doerge, R. W. (2010). An empirical Bayesian method for estimating biological networks from temporal microarray data. &lt;em&gt;Statistical Applications in Genetics and Molecular Biology&lt;/em&gt;: Vol. 9: Iss. 1, Article 9.
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;http://www.degruyter.com/view/j/sagmb.2010.9.1/sagmb.2010.9.1.1513/sagmb.2010.9.1.1513.xml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+PDF
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://cran.r-project.org/web/packages/ebdbNet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+Code
+&lt;/a&gt;
+&lt;a class=&#34;btn btn-primary btn-outline btn-xs&#34; href=&#34;https://prodinra.inra.fr/record/6927&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+ProdInra
+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
