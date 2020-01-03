@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>2019 year in review</title>
+      <link>/post/2019-year-in-review/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-year-in-review/</guid>
+      <description>Well, here I am again, exactly one year after my last year-in-review post (apparently January 3 is peak procastination time when returning from the holiday break?).
+The past year represented a whirlwind of change for me and my family. In the first half of 2019, I wrapped up the final few months of my AgreenSkills+ sabbatical stay as a Visiting Scholar at UWM in Milwaukee, Wisconsin. My time at UWM was exciting, rich in new and continued collaborations, and a wonderful way to expand my research horizons while delving into the world of genomics applied to human health.</description>
+    </item>
+    
+    <item>
       <title>Tips and tricks for ggplot2</title>
       <link>/post/tips-and-tricks-for-ggplot2/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>

@@ -6,8 +6,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2019 year in review</title>
+      <link>/post/2019-year-in-review/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-year-in-review/</guid>
+      <description>&lt;p&gt;Well, here I am again, exactly one year after my last year-in-review post (apparently January 3 is peak procastination time when returning from the holiday break?).&lt;/p&gt;
+
+&lt;p&gt;The past year represented a whirlwind of change for me and my family. In the first half of 2019, I wrapped up the final few months of my &lt;a href=&#34;https://www.agreenskills.eu/&#34; target=&#34;_blank&#34;&gt;AgreenSkills+&lt;/a&gt; sabbatical stay as a Visiting Scholar at &lt;a href=&#34;https://uwm.edu/&#34; target=&#34;_blank&#34;&gt;UWM&lt;/a&gt; in Milwaukee, Wisconsin. My time at UWM was exciting, rich in new and continued collaborations, and a wonderful way to expand my research horizons while delving into the world of genomics applied to human health. I am especially grateful to my colleague and friend &lt;a href=&#34;https://sites.uwm.edu/pauer/&#34; target=&#34;_blank&#34;&gt;Paul L. Auer&lt;/a&gt; for the wonderful welcome extended during my time there. In late June, my family and I moved back to France, starting with a month of couch-surfing in the Paris area and then with a move to the &lt;a href=&#34;https://en.wikipedia.org/wiki/Hauts-de-France&#34; target=&#34;_blank&#34;&gt;Hauts-de-France&lt;/a&gt; region in northern France, where I have started splitting my time between two INRAE research units: a local plant genomics lab called &lt;a href=&#34;http://www.hautsdefrance.inra.fr/Le-centre-Les-recherches/Les-unites-du-centre/AgroImpact&#34; target=&#34;_blank&#34;&gt;AgroImpact&lt;/a&gt; and my home lab in the &lt;a href=&#34;https://www6.jouy.inra.fr/gabi_eng/&#34; target=&#34;_blank&#34;&gt;Animal Genetics and Integrative Biology&lt;/a&gt; (GABI) research unit&lt;sup&gt;1&lt;/sup&gt;. That means that in the past year, I will have worked with human, animal, plant, and bacterial genomic data &amp;ndash; maybe I can find a way to add in fungal and viral genomics in 2020? 😅 (Also, as a side note: big surprise, it turns out that international moves are tiring and extremely disruptive to your personal and professional life!)&lt;/p&gt;
+
+&lt;p&gt;The past year allowed us to finish up and publish several of our ongoing projects focused on integrative multi-omics analysis, which has been a primary research interest for me lately:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;After a lot of hard work, in a collaboration with &lt;a href=&#34;https://uwm.edu/biology/people/udvadia-ava/&#34; target=&#34;_blank&#34;&gt;Ava Udvadia&lt;/a&gt; at UWM, we published two companion papers based on short time-course study of matched RNA-seq and ATAC-seq data in a study on optic nerve regeneration in zebrafish. The &lt;a href=&#34;https://www.nature.com/articles/s41598-019-50485-6&#34; target=&#34;_blank&#34;&gt;first&lt;/a&gt; discussed the comprehensive analysis and biological interpretation of the gene regulatory reprogramming during axon regeneration that we revealed, and the &lt;a href=&#34;https://www.g3journal.org/content/9/12/3953&#34; target=&#34;_blank&#34;&gt;second&lt;/a&gt; showed how our Shiny app, the &lt;a href=&#34;http://ls-shiny-prod.uwm.edu/rosetta/&#34; target=&#34;_blank&#34;&gt;Regeneration Rosetta&lt;/a&gt;, could be used to deeply investigate our analyses and generate hypotheses in other organisms.&lt;/li&gt;
+&lt;li&gt;We were thrilled and very proud to see the &lt;a href=&#34;https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-019-0726-5&#34; target=&#34;_blank&#34;&gt;Fr-AgENCODE paper&lt;/a&gt; on livestock genome annotation get published after the heroic work put in during revisions by the two first authors.&lt;/li&gt;
+&lt;li&gt;In addition, the manuscript describing our &lt;a href=&#34;https://github.com/andreamrau/maskmeans&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;maskmeans&lt;/em&gt;&lt;/a&gt; software to aggregate or split clusters using multi-view data was also accepted for publication after a (somewhat long but) helpful peer review process.&lt;/li&gt;
+&lt;li&gt;Finally, we were able to wrap up and submit our &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/827022v2&#34; target=&#34;_blank&#34;&gt;work&lt;/a&gt; on individualized pathway-specific deviation scores with our &lt;a href=&#34;https://github.com/andreamrau/padma&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;padma&lt;/em&gt;&lt;/a&gt; software &amp;ndash; fingers crossed for next steps during the peer review process!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Otherwise, as with last year, I was quite lucky to have some more ongoing recent collaborations come to fruition, including 3 that were published and 2 that were submitted. I didn&amp;rsquo;t do as much teaching as I have in past years (just a few hours of R instruction for a PhD-level class on physiological genomics at the &lt;a href=&#34;https://www.mcw.edu/&#34; target=&#34;_blank&#34;&gt;Medical College of Wisconsin&lt;/a&gt;, and for a local training course on RNA-seq data analysis), but I did get the very cool opportunity to teach a weeklong training course with my colleague Jordi Estellé on 16S microbiome data analysis for our animal genetics colleagues at the &lt;a href=&#34;http://www.antilles.inra.fr/en&#34; target=&#34;_blank&#34;&gt;INRA French West Indies research center&lt;/a&gt; in Guadeloupe. Since my return to France, I have been getting up to speed with the current state-of-the-art in genomic prediction models for the PhD project that I am currently supervising as part of the H2020 European-funded &lt;a href=&#34;https://t.co/vbpwkZNu38&#34; target=&#34;_blank&#34;&gt;GENE-SWitCH&lt;/a&gt; grant.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to 2020, I&amp;rsquo;ll be continuing my deep dive into the integration of functional annotation information into Bayesian genomic prediction models, delving deeper into integrative multi-omic analyses (hello, partial triadic analysis!), and hopefully actually putting into action what I learned at a &lt;a href=&#34;http://www.user2019.fr/&#34; target=&#34;_blank&#34;&gt;UseR!2019&lt;/a&gt; tutorial about adding &lt;a href=&#34;https://travis-ci.org/&#34; target=&#34;_blank&#34;&gt;Travis Continuous Integration&lt;/a&gt; to my GitHub R packages. Now that the dust has finally started to settle after this recent period of upheaval, I am mostly hoping to see the path forward a bit more clearly!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; In a somewhat confusing twist, as of January 1, 2020 &lt;a href=&#34;http://www.inra.fr/&#34; target=&#34;_blank&#34;&gt;INRA&lt;/a&gt; (the French National Institute for Agricultural Research) has &lt;a href=&#34;https://agriculture.gouv.fr/linrae-verra-le-jour-le-1er-janvier-2020&#34; target=&#34;_blank&#34;&gt;merged&lt;/a&gt; with another French research institute called &lt;a href=&#34;https://www.irstea.fr/fr&#34; target=&#34;_blank&#34;&gt;Irstea&lt;/a&gt; (the French National Research Institute of Science and Technology for Environment and Agriculture), and the combined research institute is now called &lt;a href=&#34;https://www.inrae.fr&#34; target=&#34;_blank&#34;&gt;INRAE&lt;/a&gt; (the French National Institue for Agriculture, Food and Environment). My family already couldn&amp;rsquo;t keep track of the difference between INRA and &lt;a href=&#34;https://www.inria.fr/en&#34; target=&#34;_blank&#34;&gt;Inria&lt;/a&gt; (the French National Institute for Research in Digital Science and Technology, where I did my post-doc), so I haven&amp;rsquo;t even attempted to explain the name change to them yet&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tips and tricks for ggplot2</title>
@@ -547,6 +576,8 @@ www.andrea-rau.com&lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Finally, back in the Settings of my GitHub pages repo, I made sure to check the box for &lt;code&gt;Enforce HTTPS&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;As a third addendum to this post, I changed the font family and size per the nice instructions provided by [Alison Hill}(&lt;a href=&#34;https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2&#34; class=&#34;uri&#34;&gt;https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2&lt;/a&gt;).&lt;/p&gt;
 </description>
     </item>
     
@@ -594,15 +625,6 @@ multi-omics data.&lt;/p&gt;
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/2018-12-04_mcw_rau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Individualized multi-omic pathway deviation scores using multiple factor analysis </title>
-      <link>/talk/2019-12-09_bioceurope_rau/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/talk/2019-12-09_bioceurope_rau/</guid>
       <description></description>
     </item>
     

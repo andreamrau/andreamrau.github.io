@@ -18,7 +18,7 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on developing sound statistical methods for the analysis of genomic and transcriptomic data, including differential expression analyses, co-expression analyses, network inference, and integrative multi-omic analyses.</description>
+      <description>About me My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on developing sound statistical methods for the analysis of genomic and transcriptomic data, including differential expression analyses, co-expression analyses, network inference, and integrative multi-omic analyses.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/advising/</guid>
-      <description>Fanny Mollandin (2019-2022 Ph.D.): &amp;ldquo;Incorporating known functional annotations into Bayesian genomic prediction models&amp;rdquo; (co-supervision with Pascal Croiseau  Alumni:
+      <description>Fanny Mollandin (2019-2022 Ph.D.): &amp;ldquo;Incorporating known functional annotations into Bayesian genomic prediction models&amp;rdquo; (co-supervision with Pascal Croiseau)  Alumni:
  Dr. Gilles Monneret (2014-2018 Ph.D.): &amp;ldquo;Estimation of causal effects in gene networks from observational and intervention data&amp;rdquo; (co-supervision with Gr&amp;eacute;gory Nuel and Florence Jaffr&amp;eacute;zic) Rapha&amp;euml;lle Momal-Leisenring (2017 M2 internship): &amp;ldquo;Integrative statistical analysis of multi-omics data&amp;rdquo; Fr&amp;eacute;d&amp;eacute;ric Jehl (2017 M2 internship): &amp;ldquo;Impact of heat stress on liver and blood transcriptomes of laying hens&amp;rdquo; (co-supervision with Tatiana Zerjal) Dr.</description>
     </item>
     
