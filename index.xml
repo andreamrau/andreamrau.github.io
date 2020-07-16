@@ -5,7 +5,7 @@
     <description>Recent content in Andrea Rau, Ph.D. on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
+    <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
@@ -45,6 +45,7 @@
       
       <guid>/post/tips-and-tricks-for-ggplot2/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Like many (most?) users of the &lt;code&gt;ggplot2&lt;/code&gt; visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.&lt;/p&gt;
@@ -106,6 +107,7 @@ plot_with_inset&lt;/code&gt;&lt;/pre&gt;
       
       <guid>/post/creating-a-visual-cv/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;This is a short post to provide details on how I created the visual CV that is included on my homepage. I got the idea for doing this from a &lt;a href=&#34;https://twitter.com/dataandme/status/1052527057496940544&#34;&gt;tweet&lt;/a&gt; from the awesome &lt;a href=&#34;https://maraaverick.rbind.io/about/&#34;&gt;Mara Averick&lt;/a&gt; about an R package called &lt;a href=&#34;https://github.com/ndphillips/VisualResume&#34;&gt;&lt;em&gt;VisualResume&lt;/em&gt;&lt;/a&gt; by &lt;a href=&#34;http://ndphillips.github.io/&#34;&gt;Nathaniel Phillips&lt;/a&gt;:&lt;/p&gt;
@@ -165,6 +167,7 @@ VisualResume::VisualResume(
       
       <guid>/post/alpha-transparency-in-ggplot2/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;tldr-use-i-to-treat-a-numeric-variable-in-a-data.frame-as-is-and-avoid-unintended-conversion-when-mapping-to-transparency-in-a-ggplot2-aesthetic.&#34; class=&#34;section level4&#34;&gt;
@@ -535,6 +538,7 @@ ProdInra
       
       <guid>/post/hello-blogdown/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I recently decided that I wanted to move my professional homepage from a free page set up on &lt;a href=&#34;http://andrearau.wordpress.com&#34;&gt;WordPress&lt;/a&gt; to &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; using &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; by &lt;a href=&#34;https://yihui.name/en&#34;&gt;Yihui Xi&lt;/a&gt;.&lt;/p&gt;
@@ -616,7 +620,8 @@ multi-omics data.&lt;/p&gt;
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/2018-03-28_mcw_rau/</guid>
-      <description></description>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3f19454be50e458ab8c4dbd98c8e520c&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
     <item>
