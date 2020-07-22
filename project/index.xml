@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Applications</title>
+      <link>/project/applications/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/applications/</guid>
+      <description>Applications in human, animal, and plant genomics</description>
+    </item>
     
     <item>
       <title>Multi-omic data integration</title>
@@ -18,7 +27,7 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/integration/</guid>
-      <description>Integrate multi-omic data representing gene expression, methylation, copy number alterations, somatic mutations, and microRNA expression</description>
+      <description>Methodological contributions to integrative multi-omic analyses</description>
     </item>
     
     <item>
@@ -27,7 +36,7 @@
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/rnaseq/</guid>
-      <description>Identify clusters of co-expressed genes from RNA-seq data</description>
+      <description>Identify and visualize clusters of co-expressed genes from RNA-seq data</description>
     </item>
     
     <item>
