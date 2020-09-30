@@ -6,8 +6,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
-    <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Upcoming Master&#39;s internship offers</title>
+      <link>/post/2020-masters-internships/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-masters-internships/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;We are offering two Master’s level internships in early 2021 for candidates with
+a biostatistics/bioinformatics background.&lt;/p&gt;
+&lt;p&gt;Please get in touch if you’re interested in either of these opportunities!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A 3-month M1 internship on “Knowledge transfer using multivariate gene expression projections
+onto a large-scale reference database” (location: &lt;a href=&#34;https://www.inrae.fr/en/centres/hauts-de-france&#34;&gt;Inrae Hauts-de-France research center&lt;/a&gt;
+in Estrées-Mons; full description &lt;a href=&#34;/pdf/2021_M1_subject_COOLKIT.pdf&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A 6-month M2 internship on “Improving and extending functionality for multi-omic outlier detection software”
+(location: &lt;a href=&#34;https://www.inrae.fr/centres/ile-france-jouy-josas-antony&#34;&gt;Inrae Ile-de-France research center&lt;/a&gt; in Jouy-en-Josas or
+Inrae Hauts-de-France research center in Estrées-Mons; full description &lt;a href=&#34;/pdf/2021_M2_subject_padma_final.pdf&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Applications</title>
@@ -722,7 +747,7 @@ www.andrea-rau.com&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;Finally, back in the Settings of my GitHub pages repo, I made sure to check the box for &lt;code&gt;Enforce HTTPS&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr /&gt;
-&lt;p&gt;As a third addendum to this post, I changed the font family and size per the nice instructions provided by [Alison Hill}(&lt;a href=&#34;https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2&#34; class=&#34;uri&#34;&gt;https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As a third addendum to this post, I changed the font family and size per the nice instructions provided by &lt;a href=&#34;https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2&#34;&gt;Alison Hill&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -752,16 +777,6 @@ coseq at INRA in a variety of organisms, including the chicken (Endale Ahanda et
 discuss some of our recent efforts to integratively make use of multiple data views (i.e., biological
 levels of molecular information) to identify biologically relevant and interpretable clusters from
 multi-omics data.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Exploring drivers of gene expression in The Cancer Genome Atlas</title>
-      <link>/talk/2018-03-28_mcw_rau/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/talk/2018-03-28_mcw_rau/</guid>
-      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;3f19454be50e458ab8c4dbd98c8e520c&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
