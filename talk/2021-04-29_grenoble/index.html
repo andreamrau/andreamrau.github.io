@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="In this talk, I will present some of the features of the R/Bioconductor package coseq, which provides a straightforward wrapper to identify groups of co-expressed genes from RNA sequencing data using Poisson mixture models (Rau et al., 2015), Gaussian mixture models (Rau et al., 2017), or the Kmeans algorithm (Godichon-Baggioni et al., 2018) in conjunction with appropriately chosen data transformations. In particular, I will focus on our efforts to facilitate use of coseq within standard RNA-seq analysis pipelines.">
+  <meta name="description" content="The increased availability and affordability of high-throughput sequencing technologies in recent years has facilitated the use of multi-omic studies to expand and enrich our understanding of complex systems across hierarchical biological levels. Integrative methods for these heterogeneous and multi-faceted ‘omics data have shown promise for enhancing the interpretability of exploratory analyses, improving predictive power, and contributing to a holistic understanding of systems biology. However, such integrative analyses are accompanied by several major obstacles, including the unknown hierarchy and potentially ambiguous relationships among different sources of data, high dimensionality coupled with small sample sizes, issues due to batch effects and quality control, potentially incomplete or missing data… and the occasional difficulty in posing well-defined and answerable research questions of such data. In light of these challenges, in this talk I will discuss two recent methodological contributions to exploratory integrative multi-omic analyses: (1) padma, a multiple factor analysis approach for quantifying and visualizing individualized multi-omic pathway deviation patterns; and (2) maskmeans, an approach for aggregating/splitting an existing clustering partition using multi-view data. Finally, I will discuss some practical considerations for multi-omics integration in practice, as well as some current and future areas of methodological research in this area.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/talk/2018-03-28_mcw_rau-copy/">
+  <link rel="alternate" hreflang="en-us" href="https://andreamrau.github.io/talk/2021-04-29_grenoble/">
 
   
 
@@ -74,15 +74,15 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Andrea Rau, Ph.D.">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Andrea Rau, Ph.D.">
+  <link rel="alternate" href="https://andreamrau.github.io/index.xml" type="application/rss+xml" title="Andrea Rau, Ph.D.">
+  <link rel="feed" href="https://andreamrau.github.io/index.xml" type="application/rss+xml" title="Andrea Rau, Ph.D.">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/talk/2018-03-28_mcw_rau-copy/">
+  <link rel="canonical" href="https://andreamrau.github.io/talk/2021-04-29_grenoble/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,9 +90,9 @@
   <meta property="twitter:creator" content="@andreamrau">
   
   <meta property="og:site_name" content="Andrea Rau, Ph.D.">
-  <meta property="og:url" content="/talk/2018-03-28_mcw_rau-copy/">
-  <meta property="og:title" content="Co-expression analyses of RNA-seq data in practice with the R/Bioconductor package coseq | Andrea Rau, Ph.D.">
-  <meta property="og:description" content="In this talk, I will present some of the features of the R/Bioconductor package coseq, which provides a straightforward wrapper to identify groups of co-expressed genes from RNA sequencing data using Poisson mixture models (Rau et al., 2015), Gaussian mixture models (Rau et al., 2017), or the Kmeans algorithm (Godichon-Baggioni et al., 2018) in conjunction with appropriately chosen data transformations. In particular, I will focus on our efforts to facilitate use of coseq within standard RNA-seq analysis pipelines.">
+  <meta property="og:url" content="https://andreamrau.github.io/talk/2021-04-29_grenoble/">
+  <meta property="og:title" content="Multi-omic integration for enhanced interpretability in exploratory analyses | Andrea Rau, Ph.D.">
+  <meta property="og:description" content="The increased availability and affordability of high-throughput sequencing technologies in recent years has facilitated the use of multi-omic studies to expand and enrich our understanding of complex systems across hierarchical biological levels. Integrative methods for these heterogeneous and multi-faceted ‘omics data have shown promise for enhancing the interpretability of exploratory analyses, improving predictive power, and contributing to a holistic understanding of systems biology. However, such integrative analyses are accompanied by several major obstacles, including the unknown hierarchy and potentially ambiguous relationships among different sources of data, high dimensionality coupled with small sample sizes, issues due to batch effects and quality control, potentially incomplete or missing data… and the occasional difficulty in posing well-defined and answerable research questions of such data. In light of these challenges, in this talk I will discuss two recent methodological contributions to exploratory integrative multi-omic analyses: (1) padma, a multiple factor analysis approach for quantifying and visualizing individualized multi-omic pathway deviation patterns; and (2) maskmeans, an approach for aggregating/splitting an existing clustering partition using multi-view data. Finally, I will discuss some practical considerations for multi-omics integration in practice, as well as some current and future areas of methodological research in this area.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2017-01-01T00:00:00&#43;01:00">
@@ -102,7 +102,7 @@
 
   
 
-  <title>Co-expression analyses of RNA-seq data in practice with the R/Bioconductor package coseq | Andrea Rau, Ph.D.</title>
+  <title>Multi-omic integration for enhanced interpretability in exploratory analyses | Andrea Rau, Ph.D.</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -298,7 +298,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Co-expression analyses of RNA-seq data in practice with the R/Bioconductor package coseq</h1>
+      <h1 itemprop="name">Multi-omic integration for enhanced interpretability in exploratory analyses</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -308,35 +308,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Co-expression%20analyses%20of%20RNA-seq%20data%20in%20practice%20with%20the%20R%2fBioconductor%20package%20coseq&amp;url=%2ftalk%2f2018-03-28_mcw_rau-copy%2f"
+         href="https://twitter.com/intent/tweet?text=Multi-omic%20integration%20for%20enhanced%20interpretability%20in%20exploratory%20analyses&amp;url=https%3a%2f%2fandreamrau.github.io%2ftalk%2f2021-04-29_grenoble%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2ftalk%2f2018-03-28_mcw_rau-copy%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreamrau.github.io%2ftalk%2f2021-04-29_grenoble%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2f2018-03-28_mcw_rau-copy%2f&amp;title=Co-expression%20analyses%20of%20RNA-seq%20data%20in%20practice%20with%20the%20R%2fBioconductor%20package%20coseq"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreamrau.github.io%2ftalk%2f2021-04-29_grenoble%2f&amp;title=Multi-omic%20integration%20for%20enhanced%20interpretability%20in%20exploratory%20analyses"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2ftalk%2f2018-03-28_mcw_rau-copy%2f&amp;title=Co-expression%20analyses%20of%20RNA-seq%20data%20in%20practice%20with%20the%20R%2fBioconductor%20package%20coseq"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreamrau.github.io%2ftalk%2f2021-04-29_grenoble%2f&amp;title=Multi-omic%20integration%20for%20enhanced%20interpretability%20in%20exploratory%20analyses"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Co-expression%20analyses%20of%20RNA-seq%20data%20in%20practice%20with%20the%20R%2fBioconductor%20package%20coseq&amp;body=%2ftalk%2f2018-03-28_mcw_rau-copy%2f">
+         href="mailto:?subject=Multi-omic%20integration%20for%20enhanced%20interpretability%20in%20exploratory%20analyses&amp;body=https%3a%2f%2fandreamrau.github.io%2ftalk%2f2021-04-29_grenoble%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -348,7 +348,8 @@
     </div>
 
     
-      <br>
+      <h3>Abstract</h3>
+      <p class="pub-abstract" itemprop="text">The increased availability and affordability of high-throughput sequencing technologies in recent years has facilitated the use of multi-omic studies to expand and enrich our understanding of complex systems across hierarchical biological levels. Integrative methods for these heterogeneous and multi-faceted ‘omics data have shown promise for enhancing the interpretability of exploratory analyses, improving predictive power, and contributing to a holistic understanding of systems biology. However, such integrative analyses are accompanied by several major obstacles, including the unknown hierarchy and potentially ambiguous relationships among different sources of data, high dimensionality coupled with small sample sizes, issues due to batch effects and quality control, potentially incomplete or missing data… and the occasional difficulty in posing well-defined and answerable research questions of such data. In light of these challenges, in this talk I will discuss two recent methodological contributions to exploratory integrative multi-omic analyses: (1) padma, a multiple factor analysis approach for quantifying and visualizing individualized multi-omic pathway deviation patterns; and (2) maskmeans, an approach for aggregating/splitting an existing clustering partition using multi-view data. Finally, I will discuss some practical considerations for multi-omics integration in practice, as well as some current and future areas of methodological research in this area.</p>
     
 
     <div class="row">
@@ -358,12 +359,12 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
             
-            Jun 22, 2018
+            Apr 29, 2021
             <div class="talk-time">
               
-                4:15 PM
+                2:00 PM
                 
-                  &mdash; 5:00 PM
+                  &mdash; 3:00 PM
                 
               
             </div>
@@ -380,8 +381,8 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            <a href="https://indico.math.cnrs.fr/event/2895" target="_blank" rel="noopener">
-            Mixture models: Theory and applications workshop
+            <a href="https://www-ljk.imag.fr/spip.php?article10" target="_blank" rel="noopener">
+            Grenoble Laboratoire Jean Kuntzmann seminar
             </a>
           </div>
         </div>
@@ -396,7 +397,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">Paris, France</div>
+          <div class="col-xs-12 col-sm-9">virtual</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -417,10 +418,14 @@
 
 
 
+<a class="btn btn-primary btn-outline" href="https://tinyurl.com/Grenoble2021-Rau">
+  Slides
+</a>
 
 
 
-<a class="btn btn-primary btn-outline" href="/project/rnaseq/">
+
+<a class="btn btn-primary btn-outline" href="/project/integration/">
   Project
 </a>
 
@@ -438,17 +443,7 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      <p>In this talk, I will present some of the features of the R/Bioconductor package coseq, which provides a
-straightforward wrapper to identify groups of co-expressed genes from RNA sequencing data using
-Poisson mixture models (Rau et al., 2015), Gaussian mixture models (Rau et al., 2017), or the Kmeans
-algorithm (Godichon-Baggioni et al., 2018) in conjunction with appropriately chosen data
-transformations. In particular, I will focus on our efforts to facilitate use of coseq within standard
-RNA-seq analysis pipelines. I will also highlight some successful recent biological applications of
-coseq at INRA in a variety of organisms, including the chicken (Endale Ahanda et al., 2014), tomato
-(Sauvage et al., 2017), and a parasite of the honeybee (Mondet et al., 2018). Finally, I will briefly
-discuss some of our recent efforts to integratively make use of multiple data views (i.e., biological
-levels of molecular information) to identify biologically relevant and interpretable clusters from
-multi-omics data.</p>
+      <script async class="speakerdeck-embed" data-id="d0452aebd8044621a1c904d2b6650099" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
     </div>
 
@@ -457,7 +452,7 @@ multi-omics data.</p>
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/rnaseq">rnaseq</a>
+  <a class="btn btn-primary btn-outline" href="/tags/integration">integration</a>
   
 </div>
 

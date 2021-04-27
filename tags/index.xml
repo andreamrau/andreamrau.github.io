@@ -1,78 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Andrea Rau, Ph.D.</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Andrea Rau, Ph.D.</description>
+    <title>Andrea Rau, Ph.D.</title>
+    <link>https://andreamrau.github.io/tags/</link>
+    <description>Recent content on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Wed, 22 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>applications</title>
-      <link>/tags/applications/</link>
-      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Happy 20th Birthday, R!</title>
+      <link>https://andreamrau.github.io/talk/2020-05-18_inrae/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/tags/applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ggplot2</title>
-      <link>/tags/ggplot2/</link>
-      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>integration</title>
-      <link>/tags/integration/</link>
-      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rnaseq</title>
-      <link>/tags/rnaseq/</link>
-      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rnaseq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>networks</title>
-      <link>/tags/networks/</link>
-      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
+      <guid>https://andreamrau.github.io/talk/2020-05-18_inrae/</guid>
+      <description> </description>
     </item>
     
   </channel>

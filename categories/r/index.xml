@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Andrea Rau, Ph.D.</title>
-    <link>/categories/r/</link>
+    <link>https://andreamrau.github.io/categories/r/</link>
     <description>Recent content in R on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tips and tricks for ggplot2</title>
-      <link>/post/tips-and-tricks-for-ggplot2/</link>
+      <link>https://andreamrau.github.io/post/tips-and-tricks-for-ggplot2/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/tips-and-tricks-for-ggplot2/</guid>
+      <guid>https://andreamrau.github.io/post/tips-and-tricks-for-ggplot2/</guid>
       <description>Like many (most?) users of the ggplot2 visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.
 Including an inset graphI found this tip here, using the cowplot package.</description>
     </item>
     
     <item>
       <title>Creating a visual CV</title>
-      <link>/post/creating-a-visual-cv/</link>
+      <link>https://andreamrau.github.io/post/creating-a-visual-cv/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/creating-a-visual-cv/</guid>
+      <guid>https://andreamrau.github.io/post/creating-a-visual-cv/</guid>
       <description>This is a short post to provide details on how I created the visual CV that is included on my homepage. I got the idea for doing this from a tweet from the awesome Mara Averick about an R package called VisualResume by Nathaniel Phillips:
 OMG, I love this! (I miss Breaking Bad so much)
 📦 “VisualResume: An R package for creating a visual resume” by @YaRrrBook https://t.co/ZNtbrU87Y4 #rstats pic.</description>
@@ -35,20 +35,20 @@ OMG, I love this! (I miss Breaking Bad so much)
     
     <item>
       <title>Mapping transparency in ggplot2 to a continuous variable</title>
-      <link>/post/alpha-transparency-in-ggplot2/</link>
+      <link>https://andreamrau.github.io/post/alpha-transparency-in-ggplot2/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/alpha-transparency-in-ggplot2/</guid>
+      <guid>https://andreamrau.github.io/post/alpha-transparency-in-ggplot2/</guid>
       <description>tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic.Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
 Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.</description>
     </item>
     
     <item>
       <title>Setting up blogdown</title>
-      <link>/post/hello-blogdown/</link>
+      <link>https://andreamrau.github.io/post/hello-blogdown/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-blogdown/</guid>
+      <guid>https://andreamrau.github.io/post/hello-blogdown/</guid>
       <description>I recently decided that I wanted to move my professional homepage from a free page set up on WordPress to GitHub Pages using blogdown by Yihui Xi.
 There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people.</description>
     </item>

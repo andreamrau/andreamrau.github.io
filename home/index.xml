@@ -2,95 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Andrea Rau, Ph.D.</title>
-    <link>/home/</link>
+    <link>https://andreamrau.github.io/home/</link>
     <description>Recent content in Homes on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://andreamrau.github.io/home/about/</link>
       <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://andreamrau.github.io/home/about/</guid>
       <description>About me My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on developing sound statistical methods for the analysis of genomic and transcriptomic data, including differential expression analyses, co-expression analyses, network inference, and integrative multi-omic analyses.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
+      <link>https://andreamrau.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://andreamrau.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <link>https://andreamrau.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>https://andreamrau.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
+      <link>https://andreamrau.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://andreamrau.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/home/publications/</link>
+      <link>https://andreamrau.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/home/publications/</guid>
-      <description>Book  Albert, I., Ancelet, S., David, O., Denis, J.-B., Makowski, D., Parent, &amp;Eacute;, Rau, A., and Soubeyrand, S. (2015). Initiation &amp;agrave; la statistique bay&amp;eacute;sienne : Bases th&amp;eacute;oriques et applications en alimentation, environnmenet, &amp;eacute;pid&amp;eacute;miologie et g&amp;eacute;n&amp;eacute;tique. &amp;Eacute;ditions Ellipses, collection r&amp;eacute;f&amp;eacute;rences sciences. Code  Publisher link  ProdInra   Dissertations  Rau, A. (2017) Statistical methods and software for the analysis of transcriptomic data. HDR (Habilitation &amp;agrave; diriger des recherches) thesis, Universit&amp;eacute; d&amp;rsquo;&amp;Eacute;vry Val-d&amp;rsquo;Essonne.</description>
+      <guid>https://andreamrau.github.io/home/publications/</guid>
+      <description>Dissertations, books &amp;amp; book chapters  Duranthon, V., Araújo, S., Palma, M., Rau, A., Matzapetakis, M., and Almeida, A. (2021) Rabbit research in the post-genomic era: transcriptome, proteome, and metabolome analysis. In: The Genetics and Genomics of the Rabbit., Ed. L. Fontanesi.
+ Rau, A. (2017) Statistical methods and software for the analysis of transcriptomic data. HDR thesis, Université d’Évry Val-d’Essonne. HAL  PDF  Slides 
+ Martin-Magniette, M.</description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>/home/software/</link>
+      <link>https://andreamrau.github.io/home/software/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/software/</guid>
-      <description>padma: Pathway deviation scores using multiple factor analysis Invest Astuces: An R/Shiny interactive web application for financial and real estate loan simulations Regeneration Rosetta: An R/Shiny interactive web application to explore regeneration-associated gene expression and chromatin accessibility maskmeans: Multi-view aggregation/splitting K-means clustering algorithm. Edge in TCGA: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas. coseq: Co-expression analysis of sequencing data.</description>
+      <guid>https://andreamrau.github.io/home/software/</guid>
+      <description>padma: Pathway deviation scores using multiple factor analysis, available at BioC
+ Invest Astuces: An R/Shiny interactive web application for financial and real estate loan simulations, available as a Shiny web app
+ Regeneration Rosetta: An R/Shiny interactive web application to explore regeneration-associated gene expression and chromatin accessibility, available as a Shiny web app
+ maskmeans: Multi-view aggregation/splitting K-means clustering algorithm, available at GitHub
+ Edge in TCGA: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas, available as a Shiny web app</description>
     </item>
     
     <item>
       <title>Advising &amp; Teaching</title>
-      <link>/home/advising/</link>
+      <link>https://andreamrau.github.io/home/advising/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/advising/</guid>
-      <description>Fanny Mollandin (2019-2022 Ph.D.): &amp;ldquo;Incorporating known functional annotations into Bayesian genomic prediction models&amp;rdquo; (co-supervision with Pascal Croiseau, co-funding from EU Horizon 2020 RIA grant GENE-SWitCH)  Alumni:
- Dr. Gilles Monneret (2014-2018 Ph.D.): &amp;ldquo;Estimation of causal effects in gene networks from observational and intervention data&amp;rdquo; (co-supervision with Gr&amp;eacute;gory Nuel and Florence Jaffr&amp;eacute;zic) Rapha&amp;euml;lle Momal-Leisenring (2017 M2 internship): &amp;ldquo;Integrative statistical analysis of multi-omics data&amp;rdquo; Fr&amp;eacute;d&amp;eacute;ric Jehl (2017 M2 internship): &amp;ldquo;Impact of heat stress on liver and blood transcriptomes of laying hens&amp;rdquo; (co-supervision with Tatiana Zerjal) Dr.</description>
+      <guid>https://andreamrau.github.io/home/advising/</guid>
+      <description>Alexandre Asset (2021, L2 internship): Inference of co-expression networks from intervention transcriptomic data (with Florence Jaffrézic and Denis Laloë) Solène Pety (2021, M1 internship): Knowledge transfer using multivariate gene expression projections onto a large-scale reference database (with Catherine Giauffret) Fanny Mollandin (2019-2022, PhD): Incorporating known functional annotations into Bayesian genomic prediction models (with Pascal Croiseau, co-funding from EU Horizon 2020 RIA grant GENE-SWitCH) Raphaëlle Momal-Leisenring (2017, M2 internship): Integrative statistical analysis of multi-omics data Frédéric Jehl (2017, M2 internship): Impact of heat stress on liver and blood transcriptomes of laying hens (with Tatiana Zerjal) Dr.</description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>/home/posts/</link>
+      <link>https://andreamrau.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://andreamrau.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>/home/cv/</link>
+      <link>https://andreamrau.github.io/home/cv/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/home/cv/</guid>
+      <guid>https://andreamrau.github.io/home/cv/</guid>
       <description>Find my full CV in PDF here.</description>
     </item>
     

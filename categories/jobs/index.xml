@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jobs on Andrea Rau, Ph.D.</title>
-    <link>/categories/jobs/</link>
+    <link>https://andreamrau.github.io/categories/jobs/</link>
     <description>Recent content in jobs on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/jobs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/categories/jobs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Upcoming Master&#39;s internship offers</title>
-      <link>/post/2020-masters-internships/</link>
+      <link>https://andreamrau.github.io/post/2020-masters-internships/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-masters-internships/</guid>
+      <guid>https://andreamrau.github.io/post/2020-masters-internships/</guid>
       <description>We are offering two Master’s level internships in early 2021 for candidates witha biostatistics/bioinformatics background.
 Please get in touch if you’re interested in either of these opportunities!
 A 3-month M1 internship on “Knowledge transfer using multivariate gene expression projectionsonto a large-scale reference database” (location: Inrae Hauts-de-France research centerin Estrées-Mons; full description here).

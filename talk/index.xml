@@ -2,67 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Andrea Rau, Ph.D.</title>
-    <link>/talk/</link>
+    <link>https://andreamrau.github.io/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Co-expression analyses of RNA-seq data in practice with the R/Bioconductor package coseq</title>
-      <link>/talk/2018-03-28_mcw_rau-copy/</link>
+      <link>https://andreamrau.github.io/talk/2018-06-22_mixstatseq/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/2018-03-28_mcw_rau-copy/</guid>
-      <description>In this talk, I will present some of the features of the R/Bioconductor package coseq, which provides a straightforward wrapper to identify groups of co-expressed genes from RNA sequencing data using Poisson mixture models (Rau et al., 2015), Gaussian mixture models (Rau et al., 2017), or the Kmeans algorithm (Godichon-Baggioni et al., 2018) in conjunction with appropriately chosen data transformations. In particular, I will focus on our efforts to facilitate use of coseq within standard RNA-seq analysis pipelines.</description>
+      <guid>https://andreamrau.github.io/talk/2018-06-22_mixstatseq/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Exploring drivers of gene expression in The Cancer Genome Atlas</title>
-      <link>/talk/2018-03-28_mcw_rau/</link>
+      <link>https://andreamrau.github.io/talk/2018-03-28_physiology/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/2018-03-28_mcw_rau/</guid>
+      <guid>https://andreamrau.github.io/talk/2018-03-28_physiology/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Exploring drivers of gene expression in The Cancer Genome Atlas</title>
-      <link>/talk/2018-12-04_mcw_rau/</link>
+      <link>https://andreamrau.github.io/talk/2018-12-04_division/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/2018-12-04_mcw_rau/</guid>
+      <guid>https://andreamrau.github.io/talk/2018-12-04_division/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Happy 20th Birthday, R!</title>
-      <link>/talk/2020-05-18_r4_rau/</link>
+      <link>https://andreamrau.github.io/talk/2020-05-18_inrae/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/2020-05-18_r4_rau/</guid>
+      <guid>https://andreamrau.github.io/talk/2020-05-18_inrae/</guid>
       <description> </description>
     </item>
     
     <item>
-      <title>Individualized multi-omic pathway deviation scores using multiple factor analysis </title>
-      <link>/talk/2019-12-09_bioceurope_rau/</link>
+      <title>Invited keynote: Integrative and interactive analyses of multi-omics data</title>
+      <link>https://andreamrau.github.io/talk/2020-07-02_jobim/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/2019-12-09_bioceurope_rau/</guid>
+      <guid>https://andreamrau.github.io/talk/2020-07-02_jobim/</guid>
       <description> </description>
     </item>
     
     <item>
-      <title>Integrative and interactive analyses of multi-omics data</title>
-      <link>/talk/2020-07-02_jobim_rau/</link>
+      <title>Invited talk: Individualized multi-omic pathway deviation scores using multiple factor analysis</title>
+      <link>https://andreamrau.github.io/talk/2019-12-09_eurobioc/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
-      <guid>/talk/2020-07-02_jobim_rau/</guid>
+      <guid>https://andreamrau.github.io/talk/2019-12-09_eurobioc/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Mixture models as a useful tool for identifying co-expressed genes from RNA-seq data</title>
+      <link>https://andreamrau.github.io/talk/2021-04-08_mimo/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://andreamrau.github.io/talk/2021-04-08_mimo/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Multi-omic integration for enhanced interpretability in exploratory analyses</title>
+      <link>https://andreamrau.github.io/talk/2021-04-29_grenoble/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://andreamrau.github.io/talk/2021-04-29_grenoble/</guid>
       <description> </description>
     </item>
     

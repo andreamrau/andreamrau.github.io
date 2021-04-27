@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogdown on Andrea Rau, Ph.D.</title>
-    <link>/tags/blogdown/</link>
+    <link>https://andreamrau.github.io/tags/blogdown/</link>
     <description>Recent content in blogdown on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Thu, 22 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting up blogdown</title>
-      <link>/post/hello-blogdown/</link>
+      <link>https://andreamrau.github.io/post/hello-blogdown/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-blogdown/</guid>
+      <guid>https://andreamrau.github.io/post/hello-blogdown/</guid>
       <description>I recently decided that I wanted to move my professional homepage from a free page set up on WordPress to GitHub Pages using blogdown by Yihui Xi.
 There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people.</description>
     </item>

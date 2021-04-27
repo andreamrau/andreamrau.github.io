@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Andrea Rau, Ph.D.</title>
-    <link>/post/</link>
+    <link>https://andreamrau.github.io/post/</link>
     <description>Recent content in Posts on Andrea Rau, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andreamrau.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Upcoming Master&#39;s internship offers</title>
-      <link>/post/2020-masters-internships/</link>
+      <link>https://andreamrau.github.io/post/2020-masters-internships/</link>
       <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-masters-internships/</guid>
+      <guid>https://andreamrau.github.io/post/2020-masters-internships/</guid>
       <description>We are offering two Master’s level internships in early 2021 for candidates witha biostatistics/bioinformatics background.
 Please get in touch if you’re interested in either of these opportunities!
 A 3-month M1 internship on “Knowledge transfer using multivariate gene expression projectionsonto a large-scale reference database” (location: Inrae Hauts-de-France research centerin Estrées-Mons; full description here).
@@ -26,39 +26,39 @@ Please get in touch if you’re interested in either of these opportunities!
     
     <item>
       <title>2019 year in review</title>
-      <link>/post/2019-year-in-review/</link>
+      <link>https://andreamrau.github.io/post/2019-year-in-review/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019-year-in-review/</guid>
+      <guid>https://andreamrau.github.io/post/2019-year-in-review/</guid>
       <description>Well, here I am again, exactly one year after my last year-in-review post (apparently January 3 is peak procastination time when returning from the holiday break?).
 The past year represented a whirlwind of change for me and my family. In the first half of 2019, I wrapped up the final few months of my AgreenSkills+ sabbatical stay as a Visiting Scholar at UWM in Milwaukee, Wisconsin. My time at UWM was exciting, rich in new and continued collaborations, and a wonderful way to expand my research horizons while delving into the world of genomics applied to human health.</description>
     </item>
     
     <item>
       <title>Tips and tricks for ggplot2</title>
-      <link>/post/tips-and-tricks-for-ggplot2/</link>
+      <link>https://andreamrau.github.io/post/tips-and-tricks-for-ggplot2/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/tips-and-tricks-for-ggplot2/</guid>
+      <guid>https://andreamrau.github.io/post/tips-and-tricks-for-ggplot2/</guid>
       <description>Like many (most?) users of the ggplot2 visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.
 Including an inset graphI found this tip here, using the cowplot package.</description>
     </item>
     
     <item>
       <title>2018 year in review</title>
-      <link>/post/2018-year-in-review/</link>
+      <link>https://andreamrau.github.io/post/2018-year-in-review/</link>
       <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-year-in-review/</guid>
+      <guid>https://andreamrau.github.io/post/2018-year-in-review/</guid>
       <description>The start of a new year is always a nice time to look back and take stock of the past year, and look forward and set some goals for the coming year. I spent the entirety of 2018 as an AgreenSkills+ Visiting Scholar at UWM in Milwaukee, Wisconsin, which has been (and continues to be!) a very rich experience that has given me the chance to broaden my understanding of statistical genetics and genomics and expand my skill set.</description>
     </item>
     
     <item>
       <title>Creating a visual CV</title>
-      <link>/post/creating-a-visual-cv/</link>
+      <link>https://andreamrau.github.io/post/creating-a-visual-cv/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/creating-a-visual-cv/</guid>
+      <guid>https://andreamrau.github.io/post/creating-a-visual-cv/</guid>
       <description>This is a short post to provide details on how I created the visual CV that is included on my homepage. I got the idea for doing this from a tweet from the awesome Mara Averick about an R package called VisualResume by Nathaniel Phillips:
 OMG, I love this! (I miss Breaking Bad so much)
 📦 “VisualResume: An R package for creating a visual resume” by @YaRrrBook https://t.co/ZNtbrU87Y4 #rstats pic.</description>
@@ -66,20 +66,20 @@ OMG, I love this! (I miss Breaking Bad so much)
     
     <item>
       <title>Mapping transparency in ggplot2 to a continuous variable</title>
-      <link>/post/alpha-transparency-in-ggplot2/</link>
+      <link>https://andreamrau.github.io/post/alpha-transparency-in-ggplot2/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/alpha-transparency-in-ggplot2/</guid>
+      <guid>https://andreamrau.github.io/post/alpha-transparency-in-ggplot2/</guid>
       <description>tl;dr: Use I() to treat a numeric variable in a data.frame “as is” and avoid unintended conversion when mapping to transparency in a ggplot2 aesthetic.Today I ran into a ggplot2 plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.
 Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable.</description>
     </item>
     
     <item>
       <title>Setting up blogdown</title>
-      <link>/post/hello-blogdown/</link>
+      <link>https://andreamrau.github.io/post/hello-blogdown/</link>
       <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-blogdown/</guid>
+      <guid>https://andreamrau.github.io/post/hello-blogdown/</guid>
       <description>I recently decided that I wanted to move my professional homepage from a free page set up on WordPress to GitHub Pages using blogdown by Yihui Xi.
 There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people.</description>
     </item>
